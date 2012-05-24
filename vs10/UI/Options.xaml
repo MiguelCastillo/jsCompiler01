@@ -1,0 +1,247 @@
+﻿<UserControl x:Class="SoftGPL.vs10.UI.Options"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.10.0"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:ViewModel="clr-namespace:SoftGPL.vs10.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Name="jsCompilerOptions">
+
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical" Margin="4,0">
+
+            <Expander Height="Auto" Name="Compiler" IsExpanded="True">
+                <Expander.Header>
+                    <TextBlock FontSize="20" FontWeight="Bold" Margin="2,0,0,2">Compiler</TextBlock>
+                </Expander.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Compiler type" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=ECompilerType}" SelectedItem="{Binding Path=CompilerType}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="1" Text="Compiler Level" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECompilerLevel}" SelectedItem="{Binding Path=CompilerLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="2" Text="Warning Level" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=EWarningLevel}" SelectedItem="{Binding Path=WarningLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="3" Text="Output Format" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=EOutputFormatting}" SelectedItem="{Binding Path=OutputFormatting}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="4" Text="Halt on Error" Padding="5" TextAlignment="Right"  ToolTip="Stop further processing of files when error(s) are generated. IdeMode"/>
+                    <CheckBox Grid.Column="1" Grid.Row="4" IsChecked="{Binding Path=StopOnError}" Margin="2,7,2,6" ToolTip="Stop further processing of files when error(s) are generated. IdeMode"></CheckBox>
+
+                    <!-- Not sure what this option does in google closure compiler yet... Disabling it to avoid confusion -->
+                    <!--
+                    <TextBlock Grid.Column="0" Grid.Row="5" Text="Debug" Padding="5" TextAlignment="Right"/>
+                    <CheckBox Grid.Column="1" Grid.Row="5" IsChecked="{Binding Path=Debug}" Margin="2,7,2,6"></CheckBox>
+                    -->
+
+                    <TextBlock Grid.Column="0" Grid.Row="6" Text="New Document" Padding="5" TextAlignment="Right" ToolTip="Create a new document when compiler has successfully finished.  The out is directly affected by the Output Format option"/>
+                    <CheckBox Grid.Column="1" Grid.Row="6" IsChecked="{Binding Path=NewDocument}" Margin="2,7,2,6" ToolTip="Create a new document when compiler has successfully finished.  The out is directly affected by the Output Format option"></CheckBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="7" Text="Max Errors" Padding="5" TextAlignment="Right" ToolTip="Maximum number of errors that can be reported in the error list window"/>
+                    <TextBox Grid.Column="1" Grid.Row="7" Margin="2" Text="{Binding Path=MaxErrors}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" ToolTip="Maximum number of errors that can be reported in the error list window"></TextBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="8" Text="Max Warnings" Padding="5" TextAlignment="Right" ToolTip="Maximum number of warnings that can be reported in the error list window"/>
+                    <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding Path=MaxWarnings}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" Margin="2" ToolTip="Maximum number of warnings that can be reported in the error list window"></TextBox>
+                </Grid>
+            </Expander>
+
+
+            <Expander Height="Auto" Name="CMDCompiler" IsExpanded="False">
+                <Expander.Style>
+                    <Style TargetType="{x:Type Expander}">
+                        <Setter Property="Visibility" Value="Collapsed" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Path=CompilerType}" Value="CMD">
+                                <Setter Property="Visibility" Value="Visible" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Expander.Style>
+
+                <Expander.Header>
+                    <TextBlock FontSize="20" FontWeight="Bold" Margin="2,0,0,2">CMD Compiler</TextBlock>
+                </Expander.Header>
+                <Grid Margin="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="Extra Args" Padding="5" TextAlignment="Right" />
+                    <TextBox Grid.Column="1" Margin="2" ToolTip="Extra Arguments for the Command Line google closure compiler">
+                        <TextBox.Text>
+                            <Binding
+                                Path="ExtraArgs"
+                                Mode="TwoWay"
+                                UpdateSourceTrigger="PropertyChanged"></Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                </Grid>
+            </Expander>
+
+
+            <Expander Height="Auto" Name="DiagnosticGroup" IsExpanded="False">
+                <Expander.Header>
+                    <TextBlock FontSize="20" FontWeight="Bold" Padding="2,0,0,2">Diagnostic Groups</TextBlock>
+                </Expander.Header>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Access Control" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.AccessControl.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="1" Text="Ambiguous Function" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.AmbiguousFunctionDeclaration.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="2" Text="Regular Expressions" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckRegularExpression.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="3" Text="Check Types" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckTypes.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="4" Text="Check Useless Code" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="4" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckUselessCode.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="5" Text="Check Variables" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="5" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckVariables.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="6" Text="Constant Property" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="6" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ConstantProperty.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="7" Text="Deprecated" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="7" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.Deprecated.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="8" Text="Duplicate Messages" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="8" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.DuplicateMessage.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="9" Text="ECMA 5 Strict" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="9" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ES5Strict.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="10" Text="Externs Validation" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="10" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ExternsValidation.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="11" Text="File Overview Tags" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="11" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.FileOverviewTags.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="12" Text="Global This" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="12" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.GlobalThis.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="13" Text="IE Checks" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="13" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.InternetExplorerChecks.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="14" Text="Invalid Casts" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="14" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.InvalidCasts.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="15" Text="Missing Properties" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="15" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.MissingProperties.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="16" Text="Invalid JSDoc" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="16" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.NonStandard_JSDoc.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="17" Text="Module Dependency" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="17" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.StrictModuleDependencyCheck.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="18" Text="Type Invalidation" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="18" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.TypeInvalidation.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="19" Text="Undefined Names" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="19" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UndefinedNames.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="20" Text="Undefined Variables" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="20" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UndefinedVariables.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="21" Text="Unknown Defines" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="21" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UnknownDefines.CheckLevel}" Margin="2"></ComboBox>
+
+                    <TextBlock Grid.Column="0" Grid.Row="22" Text="Visibility" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="22" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.Visibility.CheckLevel}" Margin="2"></ComboBox>
+
+                </Grid>
+            </Expander>
+
+            <Expander Height="Auto" Name="JavaSettings" IsExpanded="False">
+                <Expander.Header>
+                    <TextBlock FontSize="20" FontWeight="Bold" Margin="2,0,0,2">Java Settings</TextBlock>
+                </Expander.Header>
+                <Grid Margin="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="25"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" Text="Java Home" Padding="5" TextAlignment="Right"/>
+
+                    <TextBox Grid.Column="1" Margin="2"  ToolTip="Java home path to either JDK or JRE; must be 32bit because Visual Studio is 32bit. E.g. 'C:\Program Files (x86)\Java\jre7'">
+                        <TextBox.Text>
+                            <Binding
+                                    Path="JavaHome"
+                                    Mode="TwoWay"
+                                    UpdateSourceTrigger="PropertyChanged"></Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <Button
+                            Grid.Column="2"
+                            Content="..."
+                            ToolTip="Browse"
+                            Margin="1,0,1,0"
+                            Command="{Binding Path=JavaHomeBrowseCommand}"/>
+                </Grid>
+            </Expander>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
