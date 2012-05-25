@@ -206,7 +206,7 @@ namespace SoftGPL.vs10.Controller
                 {
                     using (System.IO.StreamReader file = new System.IO.StreamReader(fileName))
                     {
-                        SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
+                        SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
                         ViewModel.MainViewModel mainViewMode = serializer1.Deserialize(file);
                         MainViewModel.Update( mainViewMode );
                     }
@@ -226,7 +226,7 @@ namespace SoftGPL.vs10.Controller
             {
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter(fileName))
                 {
-                    SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
+                    SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
                     string content = serializer1.Serialize(MainViewModel);
                     file.Write(content);
                 }

@@ -10,7 +10,7 @@ namespace SoftGPL.vs10.ViewModel
 {
 
     [XmlRoot(ElementName = "Settings")]
-    public class MainViewModel : SoftGPL.Common.NotifyPropertyChanged
+    public class MainViewModel : SoftGPL.Common.Events.NotifyPropertyChanged
     {
 
         private FolderBrowserDialog _FolderBrowserDialog = null;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace SoftGPL.Common
+namespace SoftGPL.Common.Xml
 {
     public class Serializer<T>
     {
