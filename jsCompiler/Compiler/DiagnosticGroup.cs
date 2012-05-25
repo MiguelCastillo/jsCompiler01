@@ -3,9 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace jsCompiler
+namespace SoftGPL.jsCompiler
 {
 
+    /// <summary>
+    /// Diagnostic group is a set of flags that google closure uses for coniguring
+    /// different processing stragies.
+    /// 
+    /// Reference: http://code.google.com/p/closure-compiler/wiki/Warnings
+    /// 
+    /// NOTE: Everything in here is public because I need this class to be fully
+    /// serialazable... I really don't want to duplicate all these Diagnostics just
+    /// to give them public access.  These diagnostics also need public setters and
+    /// getters for UI bindings to properly access them.
+    /// </summary>
+    /// 
     sealed public class DiagnosticGroup
     {
 
@@ -15,7 +27,6 @@ namespace jsCompiler
             AmbiguousFunctionDeclaration,
             CheckRegularExpression,
             CheckTypes,
-            CheckUselessCode,
             CheckVariables,
             ConstantProperty,
             Deprecated,
@@ -33,40 +44,48 @@ namespace jsCompiler
             UndefinedNames,
             UndefinedVariables,
             UnknownDefines,
+            UselessCode,
             Visibility
         }
 
-        
-        internal DiagnosticGroup()
+
+        public DiagnosticGroup()
         {
-            AccessControl = get(EDiagnosticType.AccessControl);
-            AmbiguousFunctionDeclaration = get(EDiagnosticType.AmbiguousFunctionDeclaration);
-            CheckRegularExpression = get(EDiagnosticType.CheckRegularExpression);
-            CheckTypes = get(EDiagnosticType.CheckTypes);
-            CheckUselessCode = get(EDiagnosticType.CheckUselessCode);
-            CheckVariables = get(EDiagnosticType.CheckVariables);
-            ConstantProperty = get(EDiagnosticType.ConstantProperty);
-            Deprecated = get(EDiagnosticType.Deprecated);
-            DuplicateMessage = get(EDiagnosticType.DuplicateMessage);
-            ES5Strict = get(EDiagnosticType.ES5Strict);
-            ExternsValidation = get(EDiagnosticType.ExternsValidation);
-            FileOverviewTags = get(EDiagnosticType.FileOverviewTags);
-            GlobalThis = get(EDiagnosticType.GlobalThis);
-            InternetExplorerChecks = get(EDiagnosticType.InternetExplorerChecks);
-            InvalidCasts = get(EDiagnosticType.InvalidCasts);
-            MissingProperties = get(EDiagnosticType.MissingProperties);
-            NonStandard_JSDoc = get(EDiagnosticType.NonStandard_JSDoc);
-            StrictModuleDependencyCheck = get(EDiagnosticType.StrictModuleDependencyCheck);
-            TypeInvalidation = get(EDiagnosticType.TypeInvalidation);
-            UndefinedNames = get(EDiagnosticType.UndefinedNames);
-            UndefinedVariables = get(EDiagnosticType.UndefinedVariables);
-            UnknownDefines = get(EDiagnosticType.UnknownDefines);
-            Visibility = get(EDiagnosticType.Visibility);
+            AccessControl = new Diagnostic(EDiagnosticType.AccessControl);
+            AmbiguousFunctionDeclaration = new Diagnostic(EDiagnosticType.AmbiguousFunctionDeclaration, ECheckLevel.Warning);
+            CheckRegularExpression = new Diagnostic(EDiagnosticType.CheckRegularExpression);
+            CheckTypes = new Diagnostic(EDiagnosticType.CheckTypes);
+            CheckVariables = new Diagnostic(EDiagnosticType.CheckVariables);
+            ConstantProperty = new Diagnostic(EDiagnosticType.ConstantProperty);
+            Deprecated = new Diagnostic(EDiagnosticType.Deprecated);
+            DuplicateMessage = new Diagnostic(EDiagnosticType.DuplicateMessage);
+            ES5Strict = new Diagnostic(EDiagnosticType.ES5Strict, ECheckLevel.Warning);
+            ExternsValidation = new Diagnostic(EDiagnosticType.ExternsValidation, ECheckLevel.Warning);
+            FileOverviewTags = new Diagnostic(EDiagnosticType.FileOverviewTags, ECheckLevel.Warning);
+            GlobalThis = new Diagnostic(EDiagnosticType.GlobalThis);
+            InternetExplorerChecks = new Diagnostic(EDiagnosticType.InternetExplorerChecks, ECheckLevel.Error);
+            InvalidCasts = new Diagnostic(EDiagnosticType.InvalidCasts);
+            MissingProperties = new Diagnostic(EDiagnosticType.MissingProperties);
+            NonStandard_JSDoc = new Diagnostic(EDiagnosticType.NonStandard_JSDoc, ECheckLevel.Warning);
+            StrictModuleDependencyCheck = new Diagnostic(EDiagnosticType.StrictModuleDependencyCheck);
+            TypeInvalidation = new Diagnostic(EDiagnosticType.TypeInvalidation);
+            UndefinedNames = new Diagnostic(EDiagnosticType.UndefinedNames);
+            UndefinedVariables = new Diagnostic(EDiagnosticType.UndefinedVariables);
+            UnknownDefines = new Diagnostic(EDiagnosticType.UnknownDefines, ECheckLevel.Warning);
+            UselessCode = new Diagnostic(EDiagnosticType.UselessCode, ECheckLevel.Warning);
+            Visibility = new Diagnostic(EDiagnosticType.Visibility);
         }
 
 
         public class Diagnostic
         {
+            public EDiagnosticType DiagnosticType
+            {
+                get;
+                set;
+            }
+
+
             public ECheckLevel CheckLevel
             {
                 get;
@@ -74,31 +93,28 @@ namespace jsCompiler
             }
 
 
-            public EDiagnosticType DiagnosticType
-            {
-                get;
-                private set;
-            }
-
-
             public string Description
             {
                 get;
-                private set;
+                set;
             }
 
 
-            internal Diagnostic(EDiagnosticType diagnosticType)
+            public Diagnostic()
+            {
+            }
+
+            public Diagnostic(EDiagnosticType diagnosticType)
                 : this( diagnosticType, ECheckLevel.Off, String.Empty )
             {
             }
 
-            internal Diagnostic(EDiagnosticType diagnosticType, ECheckLevel checkLevel)
+            public Diagnostic(EDiagnosticType diagnosticType, ECheckLevel checkLevel)
                 : this( diagnosticType, checkLevel, String.Empty )
             {
             }
 
-            internal Diagnostic(EDiagnosticType diagnosticType, ECheckLevel checkLevel, string decription)
+            public Diagnostic(EDiagnosticType diagnosticType, ECheckLevel checkLevel, string decription)
             {
                 DiagnosticType = diagnosticType;
                 CheckLevel = checkLevel;
@@ -107,153 +123,121 @@ namespace jsCompiler
         }
 
 
-        private Diagnostic[] Groups = new Diagnostic[]{
-            new Diagnostic(EDiagnosticType.AccessControl),
-            new Diagnostic(EDiagnosticType.AmbiguousFunctionDeclaration),
-            new Diagnostic(EDiagnosticType.CheckRegularExpression),
-            new Diagnostic(EDiagnosticType.CheckTypes, ECheckLevel.Warning),
-            new Diagnostic(EDiagnosticType.CheckUselessCode),
-            new Diagnostic(EDiagnosticType.CheckVariables),
-            new Diagnostic(EDiagnosticType.ConstantProperty),
-            new Diagnostic(EDiagnosticType.Deprecated),
-            new Diagnostic(EDiagnosticType.DuplicateMessage),
-            new Diagnostic(EDiagnosticType.ES5Strict),
-            new Diagnostic(EDiagnosticType.ExternsValidation),
-            new Diagnostic(EDiagnosticType.FileOverviewTags),
-            new Diagnostic(EDiagnosticType.GlobalThis),
-            new Diagnostic(EDiagnosticType.InternetExplorerChecks, ECheckLevel.Error),
-            new Diagnostic(EDiagnosticType.InvalidCasts),
-            new Diagnostic(EDiagnosticType.MissingProperties, ECheckLevel.Warning),
-            new Diagnostic(EDiagnosticType.NonStandard_JSDoc),
-            new Diagnostic(EDiagnosticType.StrictModuleDependencyCheck),
-            new Diagnostic(EDiagnosticType.TypeInvalidation),
-            new Diagnostic(EDiagnosticType.UndefinedNames),
-            new Diagnostic(EDiagnosticType.UndefinedVariables, ECheckLevel.Error),
-            new Diagnostic(EDiagnosticType.UnknownDefines),
-            new Diagnostic(EDiagnosticType.Visibility)
-        };
-
 
         public Diagnostic AccessControl
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic AmbiguousFunctionDeclaration
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic CheckRegularExpression
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic CheckTypes
         {
             get;
-            private set;
-        }
-        public Diagnostic CheckUselessCode
-        {
-            get;
-            private set;
+            set;
         }
         public Diagnostic CheckVariables
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic ConstantProperty
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic Deprecated
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic DuplicateMessage
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic ES5Strict
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic ExternsValidation
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic FileOverviewTags
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic GlobalThis
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic InternetExplorerChecks
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic InvalidCasts
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic MissingProperties
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic NonStandard_JSDoc
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic StrictModuleDependencyCheck
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic TypeInvalidation
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic UndefinedNames
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic UndefinedVariables
         {
             get;
-            private set;
+            set;
         }
         public Diagnostic UnknownDefines
         {
             get;
-            private set;
+            set;
+        }
+        public Diagnostic UselessCode
+        {
+            get;
+            set;
         }
         public Diagnostic Visibility
         {
             get;
-            private set;
-        }
-
-
-        public Diagnostic get(EDiagnosticType diagnosticType)
-        {
-            return Groups[(int)diagnosticType];
+            set;
         }
 
     }

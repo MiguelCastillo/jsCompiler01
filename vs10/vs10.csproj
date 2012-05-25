@@ -132,7 +132,6 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="ViewModel\BaseCommand.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\NotifyPropertyChanged.cs" />
     <Compile Include="vs10Package.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PkgCmdID.cs" />
@@ -179,6 +178,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{17C0A7F5-FA59-4BB0-B281-0388B4D41998}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\jsCompiler\jsCompiler.csproj">
       <Project>{01580F38-B453-47BF-89A0-63F6F9085208}</Project>
       <Name>jsCompiler</Name>

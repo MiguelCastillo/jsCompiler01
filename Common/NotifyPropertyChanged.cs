@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 
-namespace SoftGPL.vs10.ViewModel
+namespace SoftGPL.Common
 {
     public class NotifyPropertyChanged : INotifyPropertyChanged
     {

@@ -40,13 +40,13 @@
                     <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=ECompilerType}" SelectedItem="{Binding Path=CompilerType}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="1" Text="Compiler Level" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECompilerLevel}" SelectedItem="{Binding Path=CompilerLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECompilerLevel}" SelectedItem="{Binding Path=jsOptions.CompilerLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="2" Text="Warning Level" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=EWarningLevel}" SelectedItem="{Binding Path=WarningLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=EWarningLevel}" SelectedItem="{Binding Path=jsOptions.WarningLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="3" Text="Output Format" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=EOutputFormatting}" SelectedItem="{Binding Path=OutputFormatting}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=EOutputFormatting}" SelectedItem="{Binding Path=jsOptions.OutputFormatting}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="4" Text="Halt on Error" Padding="5" TextAlignment="Right"  ToolTip="Stop further processing of files when error(s) are generated. IdeMode"/>
                     <CheckBox Grid.Column="1" Grid.Row="4" IsChecked="{Binding Path=StopOnError}" Margin="2,7,2,6" ToolTip="Stop further processing of files when error(s) are generated. IdeMode"></CheckBox>
@@ -54,22 +54,22 @@
                     <!-- Not sure what this option does in google closure compiler yet... Disabling it to avoid confusion -->
                     <!--
                     <TextBlock Grid.Column="0" Grid.Row="5" Text="Debug" Padding="5" TextAlignment="Right"/>
-                    <CheckBox Grid.Column="1" Grid.Row="5" IsChecked="{Binding Path=Debug}" Margin="2,7,2,6"></CheckBox>
+                    <CheckBox Grid.Column="1" Grid.Row="5" IsChecked="{Binding Path=jsOptions.Debug}" Margin="2,7,2,6"></CheckBox>
                     -->
 
                     <TextBlock Grid.Column="0" Grid.Row="6" Text="New Document" Padding="5" TextAlignment="Right" ToolTip="Create a new document when compiler has successfully finished.  The out is directly affected by the Output Format option"/>
                     <CheckBox Grid.Column="1" Grid.Row="6" IsChecked="{Binding Path=NewDocument}" Margin="2,7,2,6" ToolTip="Create a new document when compiler has successfully finished.  The out is directly affected by the Output Format option"></CheckBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="7" Text="Max Errors" Padding="5" TextAlignment="Right" ToolTip="Maximum number of errors that can be reported in the error list window"/>
-                    <TextBox Grid.Column="1" Grid.Row="7" Margin="2" Text="{Binding Path=MaxErrors}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" ToolTip="Maximum number of errors that can be reported in the error list window"></TextBox>
+                    <TextBox Grid.Column="1" Grid.Row="7" Margin="2" Text="{Binding Path=MaxErrors, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" ToolTip="Maximum number of errors that can be reported in the error list window"></TextBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="8" Text="Max Warnings" Padding="5" TextAlignment="Right" ToolTip="Maximum number of warnings that can be reported in the error list window"/>
-                    <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding Path=MaxWarnings}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" Margin="2" ToolTip="Maximum number of warnings that can be reported in the error list window"></TextBox>
+                    <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding Path=MaxWarnings, UpdateSourceTrigger=PropertyChanged}" PreviewTextInput="TextBox_IntOnly_PreviewTextInput" Margin="2" ToolTip="Maximum number of warnings that can be reported in the error list window"></TextBox>
                 </Grid>
             </Expander>
 
 
-            <Expander Height="Auto" Name="CMDCompiler" IsExpanded="False">
+            <Expander Height="Auto" Name="CMDCompiler" IsExpanded="False" DataContext="{Binding Path=jsOptions}">
                 <Expander.Style>
                     <Style TargetType="{x:Type Expander}">
                         <Setter Property="Visibility" Value="Collapsed" />
@@ -103,7 +103,7 @@
             </Expander>
 
 
-            <Expander Height="Auto" Name="DiagnosticGroup" IsExpanded="False">
+            <Expander Height="Auto" Name="DiagnosticGroups" IsExpanded="False">
                 <Expander.Header>
                     <TextBlock FontSize="20" FontWeight="Bold" Padding="2,0,0,2">Diagnostic Groups</TextBlock>
                 </Expander.Header>
@@ -140,73 +140,73 @@
                     </Grid.RowDefinitions>
 
                     <TextBlock Grid.Column="0" Grid.Row="0" Text="Access Control" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.AccessControl.CheckLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.AccessControl.CheckLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="1" Text="Ambiguous Function" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.AmbiguousFunctionDeclaration.CheckLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.AmbiguousFunctionDeclaration.CheckLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="2" Text="Regular Expressions" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckRegularExpression.CheckLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.CheckRegularExpression.CheckLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="3" Text="Check Types" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckTypes.CheckLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.CheckTypes.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="4" Text="Check Useless Code" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="4" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckUselessCode.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="4" Text="Check Variables" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="4" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.CheckVariables.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="5" Text="Check Variables" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="5" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.CheckVariables.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="5" Text="Constant Property" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="5" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.ConstantProperty.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="6" Text="Constant Property" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="6" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ConstantProperty.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="6" Text="Deprecated" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="6" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.Deprecated.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="7" Text="Deprecated" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="7" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.Deprecated.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="7" Text="Duplicate Messages" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="7" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.DuplicateMessage.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="8" Text="Duplicate Messages" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="8" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.DuplicateMessage.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="8" Text="ECMA 5 Strict" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="8" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.ES5Strict.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="9" Text="ECMA 5 Strict" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="9" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ES5Strict.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="9" Text="Externs Validation" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="9" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.ExternsValidation.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="10" Text="Externs Validation" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="10" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.ExternsValidation.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="10" Text="File Overview Tags" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="10" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.FileOverviewTags.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="11" Text="File Overview Tags" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="11" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.FileOverviewTags.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="11" Text="Global This" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="11" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.GlobalThis.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="12" Text="Global This" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="12" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.GlobalThis.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="12" Text="IE Checks" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="12" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.InternetExplorerChecks.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="13" Text="IE Checks" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="13" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.InternetExplorerChecks.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="13" Text="Invalid Casts" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="13" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.InvalidCasts.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="14" Text="Invalid Casts" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="14" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.InvalidCasts.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="14" Text="Missing Properties" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="14" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.MissingProperties.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="15" Text="Missing Properties" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="15" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.MissingProperties.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="15" Text="Invalid JSDoc" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="15" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.NonStandard_JSDoc.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="16" Text="Invalid JSDoc" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="16" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.NonStandard_JSDoc.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="16" Text="Module Dependency" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="16" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.StrictModuleDependencyCheck.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="17" Text="Module Dependency" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="17" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.StrictModuleDependencyCheck.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="17" Text="Type Invalidation" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="17" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.TypeInvalidation.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="18" Text="Type Invalidation" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="18" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.TypeInvalidation.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="18" Text="Undefined Names" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="18" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.UndefinedNames.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="19" Text="Undefined Names" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="19" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UndefinedNames.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="19" Text="Undefined Variables" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="19" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.UndefinedVariables.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="20" Text="Undefined Variables" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="20" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UndefinedVariables.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="20" Text="Unknown Defines" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="20" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.UnknownDefines.CheckLevel}" Margin="2"></ComboBox>
 
-                    <TextBlock Grid.Column="0" Grid.Row="21" Text="Unknown Defines" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="21" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.UnknownDefines.CheckLevel}" Margin="2"></ComboBox>
+                    <TextBlock Grid.Column="0" Grid.Row="21" Text="Useless Code" Padding="5" TextAlignment="Right"/>
+                    <ComboBox Grid.Column="1" Grid.Row="21" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.UselessCode.CheckLevel}" Margin="2"></ComboBox>
 
                     <TextBlock Grid.Column="0" Grid.Row="22" Text="Visibility" Padding="5" TextAlignment="Right"/>
-                    <ComboBox Grid.Column="1" Grid.Row="22" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=DiagnosticGroup.Visibility.CheckLevel}" Margin="2"></ComboBox>
+                    <ComboBox Grid.Column="1" Grid.Row="22" ItemsSource="{Binding Path=ECheckLevel}" SelectedItem="{Binding Path=jsOptions.DiagnosticGroup.Visibility.CheckLevel}" Margin="2"></ComboBox>
 
                 </Grid>
             </Expander>

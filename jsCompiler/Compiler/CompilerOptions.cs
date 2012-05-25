@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
-namespace jsCompiler
+namespace SoftGPL.jsCompiler
 {
 
     /// <summary>
     /// Option container that then gets tranlated to exactly what the
     /// closure compiler is expecting.
     /// </summary>
-    sealed public class CompilerOptions
+    public class CompilerOptions
     {
 
         public enum ECompilerLevel
@@ -37,19 +37,6 @@ namespace jsCompiler
         }
 
 
-
-        /// <summary>
-        /// Java Home is the root directory for the jre or jdk. E.g.
-        /// "C:\Program Files (x86)\Java\jdk1.7.0_04"
-        /// "C:\Program Files (x86)\Java\jre7"
-        /// </summary>
-        public string JavaHome
-        {
-            get { return Java.Home; }
-            set { Java.Home = value; }
-        }
-
-
         /// <summary>
         /// Container for all the files that are passed to the closure compiler.
         /// This container only has fully qualfied string names.
@@ -59,19 +46,39 @@ namespace jsCompiler
         /// <summary>
         /// Name of the file the compiler writes the compiled JavaScript to.
         /// </summary>
-        public string OutputFile = String.Empty;
-        public bool Debug = false;
+        /// 
+        public string OutputFile
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// This flag sets different poperties in the compiler for reporting
+        /// different types of problems.
+        /// </summary>
+        public bool Debug
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// IdeMode will configure the closure compiler to not stop when it encouters
         /// errors.
         /// </summary>
-        public bool IdeMode = true;
+        /// 
+        public bool IdeMode
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Compiler level for setting how much processing needs to be done to
         /// the JavaScript files.
         /// </summary>
+        /// 
         public ECompilerLevel CompilerLevel
         {
             get;
@@ -82,6 +89,7 @@ namespace jsCompiler
         /// Warning level control how verbose the compiler is when warnings
         /// and errors are encounter.
         /// </summary>
+        /// 
         public EWarningLevel WarningLevel
         {
             get;
@@ -91,6 +99,7 @@ namespace jsCompiler
         /// <summary>
         /// Tells the compiler how much to obfuscate and compresse the output script.
         /// </summary>
+        /// 
         public EOutputFormatting OutputFormatting
         {
             get;
@@ -101,22 +110,44 @@ namespace jsCompiler
         /// Special variable to hold custom arguments that are passed directly
         /// to the closure compiler...
         /// </summary>
-        public string ExtraArgs = String.Empty;
+        /// 
+        public string ExtraArgs
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Diagnostic group options to control how the compiler should treat
         /// different "problems" found while compiling the source files.
         /// </summary>
-        public DiagnosticGroup DiagnosticGroup = null;
+        /// 
+        private DiagnosticGroup _DiagnosticGroup = null;
+        public DiagnosticGroup DiagnosticGroup
+        {
+            get
+            {
+                if (_DiagnosticGroup == null)
+                    _DiagnosticGroup = new DiagnosticGroup();
+                return _DiagnosticGroup;
+            }
+            set
+            {
+                _DiagnosticGroup = value;
+            }
+        }
 
 
         public CompilerOptions()
         {
             InputFiles = new ArrayList();
-            DiagnosticGroup = new DiagnosticGroup();
             CompilerLevel = ECompilerLevel.Default;
             WarningLevel = EWarningLevel.Default;
             OutputFormatting = EOutputFormatting.Default;
+            ExtraArgs = String.Empty;
+            OutputFile = String.Empty;
+            IdeMode = true;
+            Debug = false;
         }
 
     }

@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Windows.Controls;
+using System.Xml.Serialization;
 
 namespace SoftGPL.vs10.ViewModel
 {
 
-    public class MainViewModel : NotifyPropertyChanged
+    [XmlRoot(ElementName = "Settings")]
+    public class MainViewModel : SoftGPL.Common.NotifyPropertyChanged
     {
 
         private FolderBrowserDialog _FolderBrowserDialog = null;
-        private jsCompiler.CompilerOptions _jsOptions = null;
 
 
         public MainViewModel()
         {
             _FolderBrowserDialog = new FolderBrowserDialog();
-            _jsOptions = new jsCompiler.CompilerOptions();
 
             CompilerType = jsCompiler.Compiler.ECompilerType.JNI;
             NewDocument = false;
@@ -28,7 +28,19 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        void JavaHomeBrowseCommand_ExecuteCommand(object sender, EventArgs e)
+        public void Update(MainViewModel mainViewModel)
+        {
+            CompilerType = mainViewModel.CompilerType;
+            MaxErrors = mainViewModel.MaxErrors;
+            MaxWarnings = mainViewModel.MaxWarnings;
+            JavaHome = mainViewModel.JavaHome;
+            NewDocument = mainViewModel.NewDocument;
+            StopOnError = mainViewModel.StopOnError;
+            jsOptions = mainViewModel.jsOptions;
+        }
+
+
+        private void JavaHomeBrowseCommand_ExecuteCommand(object sender, EventArgs e)
         {
             _FolderBrowserDialog.SelectedPath = System.IO.Path.GetFullPath(JavaHome);
             DialogResult result = _FolderBrowserDialog.ShowDialog();
@@ -38,6 +50,7 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
+        [XmlIgnore]
         public BaseCommand JavaHomeBrowseCommand
         {
             get;
@@ -45,44 +58,20 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
+        private jsCompiler.CompilerOptions _jsOptions = null;
         public jsCompiler.CompilerOptions jsOptions
         {
-            get { return _jsOptions; }
-        }
-
-
-        private Array _ECompilerType = System.Enum.GetValues(typeof(jsCompiler.Compiler.ECompilerType));
-        public Array ECompilerType
-        {
-            get { return _ECompilerType; }
-        }
-
-
-        public Array _ECompilerLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.ECompilerLevel));
-        public Array ECompilerLevel
-        {
-            get { return _ECompilerLevel; }
-        }
-
-
-        private Array _EOutputFormatting = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EOutputFormatting));
-        public Array EOutputFormatting
-        {
-            get { return _EOutputFormatting; }
-        }
-
-
-        private Array _EWarningLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EWarningLevel));
-        public Array EWarningLevel
-        {
-            get { return _EWarningLevel; }
-        }
-
-
-        private Array _ECheckLevel = System.Enum.GetValues(typeof(jsCompiler.ECheckLevel));
-        public Array ECheckLevel
-        {
-            get { return _ECheckLevel; }
+            get
+            {
+                if( _jsOptions == null )
+                    _jsOptions = new jsCompiler.CompilerOptions();
+                return _jsOptions;
+            }
+            set
+            {
+                _jsOptions = value;
+                OnPropertyChanged("jsOptions");
+            }
         }
 
 
@@ -94,66 +83,24 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        public jsCompiler.CompilerOptions.ECompilerLevel CompilerLevel
+        public string JavaHome
         {
-            get { return jsOptions.CompilerLevel; }
-            set { jsOptions.CompilerLevel = value; }
+            get { return jsCompiler.Java.Home; }
+            set { jsCompiler.Java.Home = value; OnPropertyChanged("JavaHome"); }
         }
-
-
-        public jsCompiler.CompilerOptions.EOutputFormatting OutputFormatting
-        {
-            get { return jsOptions.OutputFormatting; }
-            set { jsOptions.OutputFormatting = value; }
-        }
-
-
-        public jsCompiler.CompilerOptions.EWarningLevel WarningLevel
-        {
-            get { return jsOptions.WarningLevel; }
-            set { jsOptions.WarningLevel = value; }
-        }
-
-        
-        public bool IdeMode
-        {
-            get { return jsOptions.IdeMode; }
-            set { jsOptions.IdeMode = value; }
-        }
-
 
         public bool StopOnError
         {
             get { return jsOptions.IdeMode == false; }
-            set { jsOptions.IdeMode = value != true; }
+            set { jsOptions.IdeMode = value != true; OnPropertyChanged("StopOnError"); }
         }
 
 
-        public bool Debug
-        {
-            get { return jsOptions.Debug; }
-            set { jsOptions.Debug = value; }
-        }
-
-
-        public string JavaHome
-        {
-            get { return jsOptions.JavaHome; }
-            set { jsOptions.JavaHome = value; OnPropertyChanged("JavaHome"); }
-        }
-
-
-        public string ExtraArgs
-        {
-            get { return jsOptions.ExtraArgs; }
-            set { jsOptions.ExtraArgs = value; }
-        }
-
-
+        private bool _NewDocument = false;
         public bool NewDocument
         {
-            get;
-            set;
+            get { return _NewDocument; }
+            set { _NewDocument = value; OnPropertyChanged("NewDocument"); }
         }
 
 
@@ -161,7 +108,7 @@ namespace SoftGPL.vs10.ViewModel
         public int MaxErrors
         {
             get { return _MaxErrors; }
-            set { _MaxErrors = value; }
+            set { _MaxErrors = value; OnPropertyChanged("MaxErrors"); }
         }
 
 
@@ -169,26 +116,52 @@ namespace SoftGPL.vs10.ViewModel
         public int MaxWarnings
         {
             get { return _MaxWarnings; }
-            set { _MaxWarnings = value; }
+            set { _MaxWarnings = value; OnPropertyChanged("MaxWarnings"); }
         }
 
 
-        public jsCompiler.DiagnosticGroup DiagnosticGroup
+        #region Exposed enumeration types
+
+        private Array _ECompilerType = System.Enum.GetValues(typeof(jsCompiler.Compiler.ECompilerType));
+        [XmlIgnore]
+        public Array ECompilerType
         {
-            get { return jsOptions.DiagnosticGroup; }
+            get { return _ECompilerType; }
         }
 
 
-        /*
-        public jsCompiler.DiagnosticGroup.EDiagnosticType this[string name]
+        private Array _ECompilerLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.ECompilerLevel));
+        [XmlIgnore]
+        public Array ECompilerLevel
         {
-            get
-            {
-                return jsCompiler.DiagnosticGroup.EDiagnosticType.AccessControl;
-            }
+            get { return _ECompilerLevel; }
         }
-        */
 
+
+        private Array _EOutputFormatting = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EOutputFormatting));
+        [XmlIgnore]
+        public Array EOutputFormatting
+        {
+            get { return _EOutputFormatting; }
+        }
+
+
+        private Array _EWarningLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EWarningLevel));
+        [XmlIgnore]
+        public Array EWarningLevel
+        {
+            get { return _EWarningLevel; }
+        }
+
+
+        private Array _ECheckLevel = System.Enum.GetValues(typeof(jsCompiler.ECheckLevel));
+        [XmlIgnore]
+        public Array ECheckLevel
+        {
+            get { return _ECheckLevel; }
+        }
+
+        #endregion
 
     }
 

@@ -48,11 +48,10 @@ namespace SoftGPL.vs10.UI
         }
 
 
-        private SoftGPL.vs10.ViewModel.MainViewModel _MainViewModel;
         public SoftGPL.vs10.ViewModel.MainViewModel MainViewModel
         {
-            get { return _MainViewModel; }
-            private set { _MainViewModel = value; }
+            get;
+            private set;
         }
     }
 }

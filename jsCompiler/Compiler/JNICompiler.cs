@@ -10,7 +10,7 @@ using System.IO;
 using net.sf.jni4net;
 
 
-namespace jsCompiler
+namespace SoftGPL.jsCompiler
 {
 
     /// <summary>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace jsCompiler.gcBridge
+namespace SoftGPL.jsCompiler.gcBridge
 {
     /// <summary>
     /// Handles the extern options used by the closure compiler.

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Diagnostics;
 
-namespace jsCompiler
+namespace SoftGPL.jsCompiler
 {
 
     /// <summary>

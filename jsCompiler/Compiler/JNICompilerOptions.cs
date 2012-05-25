@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace jsCompiler
+namespace SoftGPL.jsCompiler
 {
 
     /// <summary>
@@ -93,6 +93,11 @@ namespace jsCompiler
         }
 
 
+        /// <summary>
+        /// Convert jsCompiler options to Google Closure Compiler options.
+        /// </summary>
+        /// <param name="options1"></param>
+        /// <param name="options2"></param>
         private void configureDiagnosticGroups(jsCompiler.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
         {
             // Set the compiler checks below tight...
@@ -106,7 +111,7 @@ namespace jsCompiler
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.AMBIGUOUS_FUNCTION_DECL, getCheckLevel(options1.DiagnosticGroup.AmbiguousFunctionDeclaration));
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CHECK_REGEXP, getCheckLevel(options1.DiagnosticGroup.CheckRegularExpression));
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CHECK_TYPES, getCheckLevel(options1.DiagnosticGroup.CheckTypes));
-            options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CHECK_USELESS_CODE, getCheckLevel(options1.DiagnosticGroup.CheckUselessCode));
+            options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CHECK_USELESS_CODE, getCheckLevel(options1.DiagnosticGroup.UselessCode));
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CHECK_VARIABLES, getCheckLevel(options1.DiagnosticGroup.CheckVariables));
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.CONSTANT_PROPERTY, getCheckLevel(options1.DiagnosticGroup.ConstantProperty));
             options2.setWarningLevel(com.google.javascript.jscomp.DiagnosticGroups.DEPRECATED, getCheckLevel(options1.DiagnosticGroup.Deprecated));

@@ -168,6 +168,7 @@ namespace SoftGPL.vs10.Controller
 
             _SolutionEvents = DTE.Events.SolutionEvents;
             _SolutionEvents.Opened += new _dispSolutionEvents_OpenedEventHandler(SolutionEvents_Opened);
+            _SolutionEvents.BeforeClosing += new _dispSolutionEvents_BeforeClosingEventHandler(SolutionEvents_BeforeClosing);
         }
 
 
@@ -186,6 +187,54 @@ namespace SoftGPL.vs10.Controller
 
             // Initialize the compiler.
             getCompiler();
+            LoadSettings();
+        }
+
+
+        private void SolutionEvents_BeforeClosing()
+        {
+            SaveSettings();
+        }
+
+
+        private void LoadSettings()
+        {
+            string fileName = DTE.Solution.FullName + ".jsCompiler";
+            if (System.IO.File.Exists(fileName) == true)
+            {
+                try
+                {
+                    using (System.IO.StreamReader file = new System.IO.StreamReader(fileName))
+                    {
+                        SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
+                        ViewModel.MainViewModel mainViewMode = serializer1.Deserialize(file);
+                        MainViewModel.Update( mainViewMode );
+                    }
+                }
+                catch (Exception)
+                {
+                    System.IO.File.Delete(fileName);
+                }
+            }
+        }
+
+
+        private void SaveSettings()
+        {
+            string fileName = DTE.Solution.FullName + ".jsCompiler";
+            try
+            {
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(fileName))
+                {
+                    SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
+                    string content = serializer1.Serialize(MainViewModel);
+                    file.Write(content);
+                }
+            }
+            catch (Exception)
+            {
+                System.IO.File.Delete(fileName);
+            }
         }
 
 
