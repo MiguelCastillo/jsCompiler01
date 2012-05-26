@@ -10,7 +10,7 @@ using System.IO;
 using net.sf.jni4net;
 
 
-namespace SoftGPL.jsCompiler
+namespace SoftGPL.jsCompiler.Core
 {
 
     /// <summary>
@@ -41,7 +41,7 @@ namespace SoftGPL.jsCompiler
 
         public Result Compile(CompilerOptions options)
         {
-            com.google.javascript.jscomp.CompilerOptions gcOptions = jsCompiler.JNICompilerOptions.Instance.Configure(options);
+            com.google.javascript.jscomp.CompilerOptions gcOptions = jsCompiler.Core.JNICompilerOptions.Instance.Configure(options);
 
             com.google.javascript.jscomp.JSSourceFile[] gcInputFile = jsCompiler.gcBridge.SourceFiles.Configure(options);
             com.google.javascript.jscomp.JSSourceFile[] gcExternFile = jsCompiler.gcBridge.ExternFiles.Configure(options);

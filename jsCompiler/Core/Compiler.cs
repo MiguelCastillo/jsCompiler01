@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SoftGPL.jsCompiler
+namespace SoftGPL.jsCompiler.Core
 {
 
     public class Compiler
@@ -33,7 +33,7 @@ namespace SoftGPL.jsCompiler
         /// Instance of the Google Closure Compiler.  We feed compiler options into it
         /// to get compiled JavaScript, Warnings and Errors back out.
         /// </summary>
-        protected jsCompiler.ICompiler gcCompiler
+        protected jsCompiler.Core.ICompiler gcCompiler
         {
             get;
             private set;
@@ -66,13 +66,13 @@ namespace SoftGPL.jsCompiler
                 case ECompilerType.JNI:
                     {
                         // Create the instance of the JNI closure compiler
-                        gcCompiler = new jsCompiler.JNICompiler();
+                        gcCompiler = new jsCompiler.Core.JNICompiler();
                         break;
                     }
                 case ECompilerType.CMD:
                     {
                         // Create the instance of the command line compiler
-                        gcCompiler = new jsCompiler.CMDCompiler();
+                        gcCompiler = new jsCompiler.Core.CMDCompiler();
                         break;
                     }
             }
@@ -86,7 +86,7 @@ namespace SoftGPL.jsCompiler
         /// <param name="options">CompilerOptions for the google closure compiler.</param>
         /// <returns>Result object, which has the compiled JavaScript, Warnings and Errors</returns>
         /// 
-        public jsCompiler.Result Compile(CompilerOptions options)
+        public jsCompiler.Core.Result Compile(CompilerOptions options)
         {
             return gcCompiler.Compile(options);
         }

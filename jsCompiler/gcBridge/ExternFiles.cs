@@ -10,7 +10,7 @@ namespace SoftGPL.jsCompiler.gcBridge
     /// </summary>
     internal static class ExternFiles
     {
-        public static com.google.javascript.jscomp.JSSourceFile[] Configure(jsCompiler.CompilerOptions options)
+        public static com.google.javascript.jscomp.JSSourceFile[] Configure(jsCompiler.Core.CompilerOptions options)
         {
             // It really sucks that I have to read the default externs out of the
             // google closure commandlinecompiler to then feed it right back in

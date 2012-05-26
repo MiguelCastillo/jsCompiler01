@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SoftGPL.jsCompiler
+namespace SoftGPL.jsCompiler.Core
 {
 
     /// <summary>
@@ -20,7 +20,7 @@ namespace SoftGPL.jsCompiler
         static internal JNICompilerOptions Instance = new JNICompilerOptions();
 
 
-        public com.google.javascript.jscomp.CompilerOptions Configure(jsCompiler.CompilerOptions options)
+        public com.google.javascript.jscomp.CompilerOptions Configure(jsCompiler.Core.CompilerOptions options)
         {
             com.google.javascript.jscomp.CompilerOptions result = new com.google.javascript.jscomp.CompilerOptions();
 
@@ -38,21 +38,21 @@ namespace SoftGPL.jsCompiler
         /// </summary>
         /// <param name="options1"></param>
         /// <param name="options2"></param>
-        private void configureCompileLevel(jsCompiler.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
+        private void configureCompileLevel(jsCompiler.Core.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
         {
             switch (options1.CompilerLevel)
             {
-                case jsCompiler.CompilerOptions.ECompilerLevel.WhiteSpaceOnly:
+                case jsCompiler.Core.CompilerOptions.ECompilerLevel.WhiteSpaceOnly:
                     {
                         com.google.javascript.jscomp.CompilationLevel.WHITESPACE_ONLY.setOptionsForCompilationLevel(options2);
                         break;
                     }
-                case jsCompiler.CompilerOptions.ECompilerLevel.SimpleOptimization:
+                case jsCompiler.Core.CompilerOptions.ECompilerLevel.SimpleOptimization:
                     {
                         com.google.javascript.jscomp.CompilationLevel.SIMPLE_OPTIMIZATIONS.setOptionsForCompilationLevel(options2);
                         break;
                     }
-                case jsCompiler.CompilerOptions.ECompilerLevel.AdvancedOptimization:
+                case jsCompiler.Core.CompilerOptions.ECompilerLevel.AdvancedOptimization:
                     {
                         com.google.javascript.jscomp.CompilationLevel.ADVANCED_OPTIMIZATIONS.setOptionsForCompilationLevel(options2);
                         break;
@@ -70,16 +70,16 @@ namespace SoftGPL.jsCompiler
         /// </summary>
         /// <param name="options1"></param>
         /// <param name="options2"></param>
-        private void configureWarningLevel(jsCompiler.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
+        private void configureWarningLevel(jsCompiler.Core.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
         {
             switch (options1.WarningLevel)
             {
-                case jsCompiler.CompilerOptions.EWarningLevel.Quiet:
+                case jsCompiler.Core.CompilerOptions.EWarningLevel.Quiet:
                     {
                         com.google.javascript.jscomp.WarningLevel.QUIET.setOptionsForWarningLevel(options2);
                         break;
                     }
-                case jsCompiler.CompilerOptions.EWarningLevel.Verbose:
+                case jsCompiler.Core.CompilerOptions.EWarningLevel.Verbose:
                     {
                         com.google.javascript.jscomp.WarningLevel.VERBOSE.setOptionsForWarningLevel(options2);
                         break;
@@ -98,7 +98,7 @@ namespace SoftGPL.jsCompiler
         /// </summary>
         /// <param name="options1"></param>
         /// <param name="options2"></param>
-        private void configureDiagnosticGroups(jsCompiler.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
+        private void configureDiagnosticGroups(jsCompiler.Core.CompilerOptions options1, com.google.javascript.jscomp.CompilerOptions options2)
         {
             // Set the compiler checks below tight...
             /*

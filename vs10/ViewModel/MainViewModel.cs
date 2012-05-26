@@ -20,7 +20,7 @@ namespace SoftGPL.vs10.ViewModel
         {
             _FolderBrowserDialog = new FolderBrowserDialog();
 
-            CompilerType = jsCompiler.Compiler.ECompilerType.JNI;
+            CompilerType = jsCompiler.Core.Compiler.ECompilerType.JNI;
             NewDocument = false;
 
             JavaHomeBrowseCommand = new BaseCommand();
@@ -58,13 +58,13 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private jsCompiler.CompilerOptions _jsOptions = null;
-        public jsCompiler.CompilerOptions jsOptions
+        private jsCompiler.Core.CompilerOptions _jsOptions = null;
+        public jsCompiler.Core.CompilerOptions jsOptions
         {
             get
             {
                 if( _jsOptions == null )
-                    _jsOptions = new jsCompiler.CompilerOptions();
+                    _jsOptions = new jsCompiler.Core.CompilerOptions();
                 return _jsOptions;
             }
             set
@@ -75,8 +75,8 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private jsCompiler.Compiler.ECompilerType _CompilerType = jsCompiler.Compiler.ECompilerType.JNI;
-        public jsCompiler.Compiler.ECompilerType CompilerType
+        private jsCompiler.Core.Compiler.ECompilerType _CompilerType = jsCompiler.Core.Compiler.ECompilerType.JNI;
+        public jsCompiler.Core.Compiler.ECompilerType CompilerType
         {
             get { return _CompilerType; }
             set { _CompilerType = value; OnPropertyChanged("CompilerType"); }
@@ -123,7 +123,7 @@ namespace SoftGPL.vs10.ViewModel
 
         #region Exposed enumeration types
 
-        private Array _ECompilerType = System.Enum.GetValues(typeof(jsCompiler.Compiler.ECompilerType));
+        private Array _ECompilerType = System.Enum.GetValues(typeof(jsCompiler.Core.Compiler.ECompilerType));
         [XmlIgnore]
         public Array ECompilerType
         {
@@ -131,7 +131,7 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private Array _ECompilerLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.ECompilerLevel));
+        private Array _ECompilerLevel = System.Enum.GetValues(typeof(jsCompiler.Core.CompilerOptions.ECompilerLevel));
         [XmlIgnore]
         public Array ECompilerLevel
         {
@@ -139,7 +139,7 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private Array _EOutputFormatting = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EOutputFormatting));
+        private Array _EOutputFormatting = System.Enum.GetValues(typeof(jsCompiler.Core.CompilerOptions.EOutputFormatting));
         [XmlIgnore]
         public Array EOutputFormatting
         {
@@ -147,7 +147,7 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private Array _EWarningLevel = System.Enum.GetValues(typeof(jsCompiler.CompilerOptions.EWarningLevel));
+        private Array _EWarningLevel = System.Enum.GetValues(typeof(jsCompiler.Core.CompilerOptions.EWarningLevel));
         [XmlIgnore]
         public Array EWarningLevel
         {
@@ -155,7 +155,7 @@ namespace SoftGPL.vs10.ViewModel
         }
 
 
-        private Array _ECheckLevel = System.Enum.GetValues(typeof(jsCompiler.ECheckLevel));
+        private Array _ECheckLevel = System.Enum.GetValues(typeof(jsCompiler.Core.ECheckLevel));
         [XmlIgnore]
         public Array ECheckLevel
         {

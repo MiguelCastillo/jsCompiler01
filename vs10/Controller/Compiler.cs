@@ -27,7 +27,7 @@ namespace SoftGPL.vs10.Controller
         /// <summary>
         /// Instance of the JavaScirpt compiler
         /// </summary>
-        private jsCompiler.Compiler _jsCompiler = null;
+        private jsCompiler.Core.Compiler _jsCompiler = null;
 
         /// <summary>
         /// Build action cache for later use and firing off the build event.
@@ -74,7 +74,7 @@ namespace SoftGPL.vs10.Controller
             {
                 try
                 {
-                    _jsCompiler = new jsCompiler.Compiler(_EventBus.MainViewModel.CompilerType);
+                    _jsCompiler = new jsCompiler.Core.Compiler(_EventBus.MainViewModel.CompilerType);
                 }
                 catch (Exception ex)
                 {
@@ -105,7 +105,7 @@ namespace SoftGPL.vs10.Controller
 
                     _EventBus.CompilerStatus.Status = CompilerStatus.EStatus.Started;
 
-                    using (jsCompiler.Result result = _jsCompiler.Compile(_EventBus.MainViewModel.jsOptions))
+                    using (jsCompiler.Core.Result result = _jsCompiler.Compile(_EventBus.MainViewModel.jsOptions))
                     {
                         _EventBus.CompilerStatus.Status = CompilerStatus.EStatus.Stopped;
 

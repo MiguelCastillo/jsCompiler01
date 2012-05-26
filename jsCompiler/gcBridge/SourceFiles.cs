@@ -13,7 +13,7 @@ namespace SoftGPL.jsCompiler.gcBridge
     /// </summary>
     internal static class SourceFiles
     {
-        public static com.google.javascript.jscomp.JSSourceFile[] Configure(jsCompiler.CompilerOptions options)
+        public static com.google.javascript.jscomp.JSSourceFile[] Configure(jsCompiler.Core.CompilerOptions options)
         {
             List<com.google.javascript.jscomp.JSSourceFile> result = new List<com.google.javascript.jscomp.JSSourceFile>(options.InputFiles.Count);
 

@@ -81,10 +81,10 @@ namespace SoftGPL.vs10.Controller
         /// </summary>
         /// <param name="errors"></param>
         /// 
-        public void AddErrors(List<jsCompiler.Error> errors)
+        public void AddErrors(List<jsCompiler.Core.Error> errors)
         {
             ErrorTask task = null;
-            foreach (jsCompiler.Error error in errors)
+            foreach (jsCompiler.Core.Error error in errors)
             {
                 task = new ErrorTask();
                 task.ErrorCategory = TaskErrorCategory.Error;
@@ -149,10 +149,10 @@ namespace SoftGPL.vs10.Controller
         /// </summary>
         /// <param name="warnings"></param>
         /// 
-        public void AddWarnings(List<jsCompiler.Error> warnings)
+        public void AddWarnings(List<jsCompiler.Core.Error> warnings)
         {
             ErrorTask task = null;
-            foreach (jsCompiler.Error error in warnings)
+            foreach (jsCompiler.Core.Error error in warnings)
             {
                 task = new ErrorTask()
                 {

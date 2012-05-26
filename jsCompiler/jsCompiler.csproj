@@ -50,18 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compiler\CheckLevel.cs" />
-    <Compile Include="Compiler\CMDCompiler.cs" />
-    <Compile Include="Compiler\CMDCompilerOptions.cs" />
-    <Compile Include="Compiler\Compiler.cs" />
-    <Compile Include="Compiler\DiagnosticGroup.cs" />
-    <Compile Include="Compiler\Error.cs" />
-    <Compile Include="Compiler\ICompiler.cs" />
-    <Compile Include="Compiler\JNICompiler.cs" />
-    <Compile Include="Compiler\CompilerOptions.cs" />
-    <Compile Include="Compiler\Result.cs" />
+    <Compile Include="Core\CheckLevel.cs" />
+    <Compile Include="Core\CMDCompiler.cs" />
+    <Compile Include="Core\CMDCompilerOptions.cs" />
+    <Compile Include="Core\Compiler.cs" />
+    <Compile Include="Core\CompilerOptions.cs" />
+    <Compile Include="Core\DiagnosticGroup.cs" />
+    <Compile Include="Core\Error.cs" />
+    <Compile Include="Core\ICompiler.cs" />
+    <Compile Include="Core\JNICompiler.cs" />
+    <Compile Include="Core\JNICompilerOptions.cs" />
+    <Compile Include="Core\Result.cs" />
     <Compile Include="gcBridge\ExternFiles.cs" />
-    <Compile Include="Compiler\JNICompilerOptions.cs" />
     <Compile Include="gcBridge\SourceFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

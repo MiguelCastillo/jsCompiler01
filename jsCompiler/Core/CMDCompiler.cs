@@ -8,7 +8,7 @@ using System.Reflection;
 using System.IO;
 
 
-namespace SoftGPL.jsCompiler
+namespace SoftGPL.jsCompiler.Core
 {
 
     /// <summary>
