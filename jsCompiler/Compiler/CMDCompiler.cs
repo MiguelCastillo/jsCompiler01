@@ -35,7 +35,7 @@ namespace SoftGPL.jsCompiler
         /// <summary>
         /// Java runtime that executes the closure compiler
         /// </summary>
-        private Java Java = null;
+        private SoftGPL.Common.Process.Java Java = null;
 
         /// <summary>
         /// Flag to keep track if we are processing a compile error or
@@ -96,7 +96,7 @@ namespace SoftGPL.jsCompiler
         /// </summary>
         public CMDCompiler()
         {
-            Java = new Java();
+            Java = new SoftGPL.Common.Process.Java();
             Errors = new List<Error>();
             Warnings = new List<Error>();
             Failures = new List<string>();

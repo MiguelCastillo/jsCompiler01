@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Common")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("googClosure")]
+[assembly: AssemblyDescription("JNI bridge for Google Closure Compiler")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Common")]
+[assembly: AssemblyProduct("googClosure")]
 [assembly: AssemblyCopyright("Copyright © Miguel Castillo 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1142a86c-a8e6-40c1-a017-be3591f7824f")]
+[assembly: Guid("e4513fee-82ab-442a-8608-3fca84d3fb74")]
 
 // Version information for an assembly consists of the following four values:
 //

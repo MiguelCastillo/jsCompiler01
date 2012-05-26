@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Diagnostics;
 
-namespace SoftGPL.jsCompiler
+namespace SoftGPL.Common.Process
 {
 
     /// <summary>
@@ -94,7 +94,7 @@ namespace SoftGPL.jsCompiler
         {
             Java.Verify();
 
-            Process process = new Process();
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
 
             if ( dataReceived != null )
                 process.OutputDataReceived += dataReceived;
@@ -162,7 +162,7 @@ namespace SoftGPL.jsCompiler
                 if (Exists == true)
                     return Exists;
 
-                Process process = new Process();
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
                 process.StartInfo.FileName = Java.Home + "/bin/java.exe";
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.CreateNoWindow = true;

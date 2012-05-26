@@ -74,8 +74,8 @@ namespace SoftGPL.jsCompiler
                 {
                     _BridgeSetup = new BridgeSetup(false);
 
-                    if (Java.Home != String.Empty)
-                        _BridgeSetup.JavaHome = Java.Home;
+                    if (SoftGPL.Common.Process.Java.Home != String.Empty)
+                        _BridgeSetup.JavaHome = SoftGPL.Common.Process.Java.Home;
 
                     _BridgeSetup.AddJVMOption("-Xmx1024m");
                     _BridgeSetup.AddAllJarsClassPath(Home + "/lib/jni4net");

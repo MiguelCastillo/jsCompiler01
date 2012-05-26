@@ -7,12 +7,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("jsCompiler")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("jsCompiler plugin")]
+[assembly: AssemblyDescription("Visual Studio integration plugin for Google Closure Compiler")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Miguel Castillo")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("jsCompiler")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Copyright © Miguel Castillo 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]   
 [assembly: ComVisible(false)]     

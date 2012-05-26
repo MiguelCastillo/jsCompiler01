@@ -85,9 +85,10 @@ namespace SoftGPL.vs10.ViewModel
 
         public string JavaHome
         {
-            get { return jsCompiler.Java.Home; }
-            set { jsCompiler.Java.Home = value; OnPropertyChanged("JavaHome"); }
+            get { return Common.Process.Java.Home; }
+            set { Common.Process.Java.Home = value; OnPropertyChanged("JavaHome"); }
         }
+
 
         public bool StopOnError
         {

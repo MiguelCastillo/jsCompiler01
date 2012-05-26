@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{01580F38-B453-47BF-89A0-63F6F9085208}</ProjectGuid>
+    <ProjectGuid>{3A40DAB4-C7AA-440B-9450-E2FD539D241D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SoftGPL.jsCompiler</RootNamespace>
-    <AssemblyName>jsCompiler</AssemblyName>
+    <RootNamespace>SoftGPL.googClosure</RootNamespace>
+    <AssemblyName>googClosure</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
   <ItemGroup>
     <Reference Include="jni4net.n-0.8.6.0, Version=0.8.6.0, Culture=neutral, PublicKeyToken=acd6606575b3432e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\googClosure\jni4net\jni4net.n-0.8.6.0.dll</HintPath>
+      <HintPath>jni4net\jni4net.n-0.8.6.0.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,36 +50,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compiler\CheckLevel.cs" />
-    <Compile Include="Compiler\CMDCompiler.cs" />
-    <Compile Include="Compiler\CMDCompilerOptions.cs" />
-    <Compile Include="Compiler\Compiler.cs" />
-    <Compile Include="Compiler\DiagnosticGroup.cs" />
-    <Compile Include="Compiler\Error.cs" />
-    <Compile Include="Compiler\ICompiler.cs" />
-    <Compile Include="Compiler\JNICompiler.cs" />
-    <Compile Include="Compiler\CompilerOptions.cs" />
-    <Compile Include="Compiler\Result.cs" />
-    <Compile Include="gcBridge\ExternFiles.cs" />
-    <Compile Include="Compiler\JNICompilerOptions.cs" />
-    <Compile Include="gcBridge\SourceFiles.cs" />
+    <Compile Include="com\google\javascript\jscomp\CheckLevel.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\CommandLineRunner.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\CompilationLevel.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\Compiler.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\CompilerOptions.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\DiagnosticGroups.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\JSError.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\JSSourceFile.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\Result.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\SourceFile.generated.cs" />
+    <Compile Include="com\google\javascript\jscomp\WarningLevel.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Key.snk" />
-    <Content Include="LICENSE">
+    <Content Include="Closure\compiler.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="jni4net\jni4net-LGPL-3.0.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="jni4net\jni4net.j-0.8.6.0.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="jni4net\jni4net.n-0.8.6.0.dll" />
+    <Content Include="proxygen.j4n.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{17C0A7F5-FA59-4BB0-B281-0388B4D41998}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\googClosure\googClosure.csproj">
-      <Project>{3A40DAB4-C7AA-440B-9450-E2FD539D241D}</Project>
-      <Name>googClosure</Name>
-    </ProjectReference>
+    <Content Include="Closure\COPYING">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Closure\README">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+    <None Include="LICENSE" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
