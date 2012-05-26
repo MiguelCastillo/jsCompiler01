@@ -1,7 +1,7 @@
 jsCompiler
 ==========
 
-jsCompiler is a Visual Studio integration plugin for Google Closure Compiler. It primaliry allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report error and warning found in your JavaScript code.
+jsCompiler is a Visual Studio integration plugin for Google Closure Compiler. It primaliry allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report errors and warnings found in your JavaScript code.
 
 
 Downloads
