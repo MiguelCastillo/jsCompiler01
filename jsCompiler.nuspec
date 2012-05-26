@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.1</version>
+    <authors>Miguel Castillo</authors>
+    <owners />
+    <licenseUrl>https://github.com/MiguelCastillo/jsCompiler/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MiguelCastillo/jsCompiler</projectUrl>
+    <id>jsCompiler</id>
+    <title />
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>jsCompiler is a Visual Studio integration plugin for Google Closure Compiler.  It primaliry allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report errors and warnings found in your JavaScript code.</description>
+    <copyright>Copyright (c) 2012, Miguel Castillo</copyright>
+  </metadata>
+  <files>
+    <file src="jsCompiler.vs10-latest.vsix" target="jsCompiler.vs10-latest.vsix" />
+  </files>
+</package>
