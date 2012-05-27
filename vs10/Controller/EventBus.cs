@@ -199,15 +199,16 @@ namespace SoftGPL.vs10.Controller
 
         private void LoadSettings()
         {
-            string fileName = DTE.Solution.FullName + ".jsCompiler";
+            string fileName = Path.GetFileNameWithoutExtension(DTE.Solution.FullName) + ".jsCompiler";
+
             if (System.IO.File.Exists(fileName) == true)
             {
                 try
                 {
-                    using (System.IO.StreamReader file = new System.IO.StreamReader(fileName))
+                    using (System.IO.StreamReader fileStream = new System.IO.StreamReader(fileName))
                     {
                         SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
-                        ViewModel.MainViewModel mainViewMode = serializer1.Deserialize(file);
+                        ViewModel.MainViewModel mainViewMode = serializer1.Deserialize(fileStream);
                         MainViewModel.Update( mainViewMode );
                     }
                 }
@@ -221,19 +222,25 @@ namespace SoftGPL.vs10.Controller
 
         private void SaveSettings()
         {
-            string fileName = DTE.Solution.FullName + ".jsCompiler";
+            string fileName = Path.GetFileNameWithoutExtension(DTE.Solution.FullName) + ".jsCompiler";
+
             try
             {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(fileName))
+                using (System.IO.StreamWriter fileStream = new System.IO.StreamWriter(fileName))
                 {
                     SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel> serializer1 = new SoftGPL.Common.Xml.Serializer<SoftGPL.vs10.ViewModel.MainViewModel>();
                     string content = serializer1.Serialize(MainViewModel);
-                    file.Write(content);
+                    fileStream.Write(content);
                 }
             }
             catch (Exception)
             {
                 System.IO.File.Delete(fileName);
+            }
+
+            if (System.IO.File.Exists(fileName) == true)
+            {
+                File.SetAttributes(fileName, FileAttributes.Hidden);
             }
         }
 
