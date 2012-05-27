@@ -6,7 +6,7 @@ namespace SoftGPL.vs10
 {
     static class GuidList
     {
-        public const string guidvs10PkgString = "71e8c47b-ecdc-4f5e-83c2-c0f9a36ed13e";
+        public const string guidvs10PkgString = "85CB7DD9-A648-46DD-BD61-110FCC6A9778";
         public const string guidvs10CmdSetString = "4d6452fe-496e-46e7-ad50-375a996667d8";
         public const string guidToolWindowPersistanceString = "18cce485-38b6-4bcd-9e7f-c760c9716f45";
 

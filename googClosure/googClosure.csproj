@@ -64,27 +64,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Closure\compiler.jar">
+    <Content Include="lib\closure\compiler.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="jni4net\jni4net-LGPL-3.0.txt">
+    <Content Include="lib\jni4net\jni4net-LGPL-3.0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="jni4net\jni4net.j-0.8.6.0.jar">
+    <Content Include="lib\jni4net\jni4net.j-0.8.6.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="jni4net\jni4net.n-0.8.6.0.dll" />
-    <Content Include="proxygen.j4n.jar">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Closure\COPYING">
+    <Content Include="lib\jni4net\jni4net.n-0.8.6.0.dll" />
+    <Content Include="lib\proxygen.j4n\proxygen.j4n.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Closure\README">
+    <Content Include="lib\closure\COPYING">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\closure\README">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

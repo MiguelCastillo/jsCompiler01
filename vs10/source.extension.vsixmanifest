@@ -1,19 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="71e8c47b-ecdc-4f5e-83c2-c0f9a36ed13e">
+  <Identifier Id="85CB7DD9-A648-46DD-BD61-110FCC6A9778">
     <Name>jsCompiler</Name>
     <Author>Miguel Castillo</Author>
-    <Version>1.0</Version>
-    <Description xml:space="preserve">Visual Studio plugin integration for Google Closure Compiler</Description>
+    <Version>1.0.0</Version>
+    <Description xml:space="preserve">jsCompiler is a Visual Studio integration plugin for Google Closure Compiler. It primaliry allows you to configure Google Closure Compiler to process your JavaScript, display the generated JavaScript and report errors and warnings found in your JavaScript code.</Description>
     <Locale>1033</Locale>
     <License>LICENSE</License>
     <InstalledByMsi>false</InstalledByMsi>
     <SupportedProducts>
       <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
         <Edition>Pro</Edition>
         <Edition>Express_All</Edition>
       </VisualStudio>
       <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
         <Edition>Pro</Edition>
         <Edition>Express_All</Edition>
       </VisualStudio>

@@ -105,7 +105,7 @@
 
   <Symbols>
     <!-- This is the package guid. -->
-    <GuidSymbol name="guidvs10Pkg" value="{71e8c47b-ecdc-4f5e-83c2-c0f9a36ed13e}" />
+    <GuidSymbol name="guidvs10Pkg" value="{85CB7DD9-A648-46DD-BD61-110FCC6A9778}" />
     
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidvs10CmdSet" value="{4d6452fe-496e-46e7-ad50-375a996667d8}">
