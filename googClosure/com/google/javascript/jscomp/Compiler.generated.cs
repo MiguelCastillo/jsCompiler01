@@ -200,23 +200,23 @@ namespace com.google.javascript.jscomp {
                     "rceFile;Lcom/google/javascript/jscomp/CompilerOptions;)V");
             global::com.google.javascript.jscomp.Compiler.j4n_optimize3 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "optimize", "()V");
             global::com.google.javascript.jscomp.Compiler.j4n_getState4 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getState", "()Lcom/google/javascript/jscomp/Compiler$IntermediateState;");
-            global::com.google.javascript.jscomp.Compiler.j4n_compile5 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Ljava/util/List;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)L" +
-                    "com/google/javascript/jscomp/Result;");
-            global::com.google.javascript.jscomp.Compiler.j4n_compile6 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSMod" +
-                    "ule;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp" +
-                    "/Result;");
-            global::com.google.javascript.jscomp.Compiler.j4n_compile7 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Lcom/google/javascript/jscomp/SourceFile;Lcom/google/javascript/jscomp/SourceFil" +
+            global::com.google.javascript.jscomp.Compiler.j4n_compile5 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Lcom/google/javascript/jscomp/SourceFile;[Lcom/google/javascript/jscomp/JSSource" +
+                    "File;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscom" +
+                    "p/Result;");
+            global::com.google.javascript.jscomp.Compiler.j4n_compile6 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Lcom/google/javascript/jscomp/SourceFile;Lcom/google/javascript/jscomp/SourceFil" +
                     "e;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp/R" +
                     "esult;");
+            global::com.google.javascript.jscomp.Compiler.j4n_compile7 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSSou" +
+                    "rceFile;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/js" +
+                    "comp/Result;");
             global::com.google.javascript.jscomp.Compiler.j4n_compile8 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSModu" +
                     "le;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp/" +
                     "Result;");
-            global::com.google.javascript.jscomp.Compiler.j4n_compile9 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Lcom/google/javascript/jscomp/SourceFile;[Lcom/google/javascript/jscomp/JSSource" +
-                    "File;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscom" +
-                    "p/Result;");
-            global::com.google.javascript.jscomp.Compiler.j4n_compile10 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSSou" +
-                    "rceFile;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/js" +
-                    "comp/Result;");
+            global::com.google.javascript.jscomp.Compiler.j4n_compile9 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSMod" +
+                    "ule;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp" +
+                    "/Result;");
+            global::com.google.javascript.jscomp.Compiler.j4n_compile10 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compile", "(Ljava/util/List;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)L" +
+                    "com/google/javascript/jscomp/Result;");
             global::com.google.javascript.jscomp.Compiler.j4n_parse11 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "parse", "()V");
             global::com.google.javascript.jscomp.Compiler.j4n_parse12 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "parse", "(Lcom/google/javascript/jscomp/SourceFile;)Lcom/google/javascript/rhino/Node;");
             global::com.google.javascript.jscomp.Compiler.j4n_normalize13 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "normalize", "()V");
@@ -230,10 +230,10 @@ namespace com.google.javascript.jscomp {
             global::com.google.javascript.jscomp.Compiler.j4n_getErrors20 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getErrors", "()[Lcom/google/javascript/jscomp/JSError;");
             global::com.google.javascript.jscomp.Compiler.j4n_getWarnings21 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getWarnings", "()[Lcom/google/javascript/jscomp/JSError;");
             global::com.google.javascript.jscomp.Compiler.j4n_getMessages22 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getMessages", "()[Lcom/google/javascript/jscomp/JSError;");
-            global::com.google.javascript.jscomp.Compiler.j4n_toSource23 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSource", "(Lcom/google/javascript/jscomp/Compiler$CodeBuilder;ILcom/google/javascript/rhino" +
-                    "/Node;)V");
+            global::com.google.javascript.jscomp.Compiler.j4n_toSource23 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSource", "()Ljava/lang/String;");
             global::com.google.javascript.jscomp.Compiler.j4n_toSource24 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSource", "(Lcom/google/javascript/jscomp/JSModule;)Ljava/lang/String;");
-            global::com.google.javascript.jscomp.Compiler.j4n_toSource25 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSource", "()Ljava/lang/String;");
+            global::com.google.javascript.jscomp.Compiler.j4n_toSource25 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSource", "(Lcom/google/javascript/jscomp/Compiler$CodeBuilder;ILcom/google/javascript/rhino" +
+                    "/Node;)V");
             global::com.google.javascript.jscomp.Compiler.j4n_setErrorManager26 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "setErrorManager", "(Lcom/google/javascript/jscomp/ErrorManager;)V");
             global::com.google.javascript.jscomp.Compiler.j4n_rebuildInputsFromModules27 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "rebuildInputsFromModules", "()V");
             global::com.google.javascript.jscomp.Compiler.j4n_compileModules28 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "compileModules", "(Ljava/util/List;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)L" +
@@ -242,8 +242,8 @@ namespace com.google.javascript.jscomp {
             global::com.google.javascript.jscomp.Compiler.j4n_setPassConfig30 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "setPassConfig", "(Lcom/google/javascript/jscomp/PassConfig;)V");
             global::com.google.javascript.jscomp.Compiler.j4n_getTypedScopeCreator31 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getTypedScopeCreator", "()Lcom/google/javascript/jscomp/MemoizedScopeCreator;");
             global::com.google.javascript.jscomp.Compiler.j4n_buildKnownSymbolTable32 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "buildKnownSymbolTable", "()Lcom/google/javascript/jscomp/SymbolTable;");
-            global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray33 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSourceArray", "()[Ljava/lang/String;");
-            global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray34 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSourceArray", "(Lcom/google/javascript/jscomp/JSModule;)[Ljava/lang/String;");
+            global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray33 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSourceArray", "(Lcom/google/javascript/jscomp/JSModule;)[Ljava/lang/String;");
+            global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray34 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "toSourceArray", "()[Ljava/lang/String;");
             global::com.google.javascript.jscomp.Compiler.j4n_processDefines35 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "processDefines", "()V");
             global::com.google.javascript.jscomp.Compiler.j4n_getErrorCount36 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getErrorCount", "()I");
             global::com.google.javascript.jscomp.Compiler.j4n_getWarningCount37 = @__env.GetMethodID(global::com.google.javascript.jscomp.Compiler.staticClass, "getWarningCount", "()I");
@@ -307,22 +307,13 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)L" +
-            "com/google/javascript/jscomp/Result;")]
-        public virtual global::com.google.javascript.jscomp.Result compile(global::java.util.List par0, global::java.util.List par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/SourceFile;[Lcom/google/javascript/jscomp/JSSource" +
+            "File;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscom" +
+            "p/Result;")]
+        public virtual global::com.google.javascript.jscomp.Result compile(global::com.google.javascript.jscomp.SourceFile par0, com.google.javascript.jscomp.JSSourceFile[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile5, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSMod" +
-            "ule;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp" +
-            "/Result;")]
-        public virtual global::com.google.javascript.jscomp.Result compile(com.google.javascript.jscomp.JSSourceFile[] par0, java.lang.Object[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile6, global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile5, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
             }
         }
         
@@ -332,7 +323,17 @@ namespace com.google.javascript.jscomp {
         public virtual global::com.google.javascript.jscomp.Result compile(global::com.google.javascript.jscomp.SourceFile par0, global::com.google.javascript.jscomp.SourceFile par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile7, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile6, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSSou" +
+            "rceFile;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/js" +
+            "comp/Result;")]
+        public virtual global::com.google.javascript.jscomp.Result compile(com.google.javascript.jscomp.JSSourceFile[] par0, com.google.javascript.jscomp.JSSourceFile[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile7, global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
             }
         }
         
@@ -346,23 +347,22 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/SourceFile;[Lcom/google/javascript/jscomp/JSSource" +
-            "File;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscom" +
-            "p/Result;")]
-        public virtual global::com.google.javascript.jscomp.Result compile(global::com.google.javascript.jscomp.SourceFile par0, com.google.javascript.jscomp.JSSourceFile[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSMod" +
+            "ule;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/jscomp" +
+            "/Result;")]
+        public virtual global::com.google.javascript.jscomp.Result compile(com.google.javascript.jscomp.JSSourceFile[] par0, java.lang.Object[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile9, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile9, global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([Lcom/google/javascript/jscomp/JSSourceFile;[Lcom/google/javascript/jscomp/JSSou" +
-            "rceFile;Lcom/google/javascript/jscomp/CompilerOptions;)Lcom/google/javascript/js" +
-            "comp/Result;")]
-        public virtual global::com.google.javascript.jscomp.Result compile(com.google.javascript.jscomp.JSSourceFile[] par0, com.google.javascript.jscomp.JSSourceFile[] par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)L" +
+            "com/google/javascript/jscomp/Result;")]
+        public virtual global::com.google.javascript.jscomp.Result compile(global::java.util.List par0, global::java.util.List par1, global::com.google.javascript.jscomp.CompilerOptions par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile10, global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParArrayStrongCp2J(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::com.google.javascript.jscomp.Result>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_compile10, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2)));
             }
         }
         
@@ -463,12 +463,11 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/Compiler$CodeBuilder;ILcom/google/javascript/rhino" +
-            "/Node;)V")]
-        public virtual void toSource(global::java.lang.Object par0, int par1, global::java.lang.Object par2) {
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Ljava/lang/String;")]
+        public virtual global::java.lang.String toSource() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.Compiler.j4n_toSource23, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2));
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSource23));
             }
         }
         
@@ -480,11 +479,12 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Ljava/lang/String;")]
-        public virtual global::java.lang.String toSource() {
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/Compiler$CodeBuilder;ILcom/google/javascript/rhino" +
+            "/Node;)V")]
+        public virtual void toSource(global::java.lang.Object par0, int par1, global::java.lang.Object par2) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSource25));
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 16)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.Compiler.j4n_toSource25, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par2));
             }
         }
         
@@ -545,19 +545,19 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()[Ljava/lang/String;")]
-        public virtual java.lang.String[] toSourceArray() {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.ArrayStrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray33));
-            }
-        }
-        
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/JSModule;)[Ljava/lang/String;")]
         public virtual java.lang.String[] toSourceArray(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            return global::net.sf.jni4net.utils.Convertor.ArrayStrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray34, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            return global::net.sf.jni4net.utils.Convertor.ArrayStrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray33, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0)));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()[Ljava/lang/String;")]
+        public virtual java.lang.String[] toSourceArray() {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return global::net.sf.jni4net.utils.Convertor.ArrayStrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.Compiler.j4n_toSourceArray34));
             }
         }
         

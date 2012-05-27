@@ -43,367 +43,367 @@ namespace com.google.javascript.jscomp {
         
         internal static global::net.sf.jni4net.jni.MethodId j4n_setCssRenamingMap12;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_assumeClosuresOnlyCaptureReferences13;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setPreferLineBreakAtEndOfFile13;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setBrokenClosureRequiresLevel14;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_assumeStrictThis14;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingGetCssNameLevel15;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAggressiveVarCheck15;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_isRemoveUnusedClassProperties16;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTightenTypes16;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedClassProperties17;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportMissingOverride17;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapsePropertiesOnExternTypes18;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportUnknownTypes18;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setProcessObjectPropertyString19;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckRequires19;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsConfiguration20;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckProvides20;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameAnonymousFunctionsOnly21;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckGlobalNamesLevel21;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasTransformationHandler22;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckGlobalThisLevel22;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getAliasTransformationHandler23;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckUnreachableCode23;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAssumeClosuresOnlyCaptureReferences24;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingReturn24;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyInvalidationErrors25;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasableGlobals25;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingGetCssNameBlacklist26;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setUnaliasableGlobals26;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setFlowSensitiveInlineVariables27;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseObjectLiterals27;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setExtractPrototypeMemberDeclarations28;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSpecializeInitialModule28;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedPrototypeProperties29;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setIgnoreCajaProperties29;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedPrototypePropertiesInExterns30;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAppNameStr30;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseVariableDeclarations31;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportPath31;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseAnonymousFunctions32;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getTracerMode32;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRewriteFunctionExpressions33;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTracerMode33;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDevirtualizePrototypeMethods34;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameReferenceReportPath34;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setComputeFunctionSideEffects35;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameReferenceGraphPath35;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDebugFunctionSideEffectsPath36;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setProtectHiddenSideEffects36;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputVariableMapSerialized37;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getDefineReplacements37;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputPropertyMapSerialized38;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getTweakReplacements38;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRuntimeTypeCheckLogFunction39;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToBooleanLiteral39;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsFunctionDescriptions40;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToStringLiteral40;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsPlaceholderToken41;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToNumberLiteral41;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsReservedStrings42;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToDoubleLiteral42;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setPreferLineBreakAtEndOfFile43;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToBooleanLiteral43;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLineBreak44;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToStringLiteral44;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLocale45;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToNumberLiteral45;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckCaja46;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToDoubleLiteral46;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setIdeMode47;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_skipAllCompilerPasses47;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDevMode48;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_addWarningsGuard48;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTracer49;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_resetWarningsGuard49;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_assumeStrictThis50;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamingPolicy50;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAggressiveVarCheck51;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyAffinity51;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTightenTypes52;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setShadowVariables52;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportMissingOverride53;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceIdGenerators53;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportUnknownTypes54;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setIdGenerators54;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckRequires55;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineFunctions55;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckProvides56;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineFunctions56;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckGlobalNamesLevel57;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineVariables57;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckGlobalThisLevel58;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineVariables58;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckUnreachableCode59;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineProperties59;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingReturn60;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVariable60;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasableGlobals61;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVariables61;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setUnaliasableGlobals62;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRewriteNewDateGoogNow62;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseObjectLiterals63;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveAbstractMethods63;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSpecializeInitialModule64;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveClosureAsserts64;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setIgnoreCajaProperties65;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setColorizeErrorOutput65;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAppNameStr66;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setChainCalls66;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReportPath67;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAcceptConstKeyword67;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getTracerMode68;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_enableRuntimeTypeCheck68;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTracerMode69;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_disableRuntimeTypeCheck69;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameReferenceReportPath70;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setGenerateExports70;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameReferenceGraphPath71;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCodingConvention71;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setProtectHiddenSideEffects72;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDependencyOptions72;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getDefineReplacements73;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setManageClosureDependencies73;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getTweakReplacements74;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setManageClosureDependencies74;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToBooleanLiteral75;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_enableExternExports75;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToStringLiteral76;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setExtraAnnotationNames76;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToNumberLiteral77;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakProcessing77;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineToDoubleLiteral78;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLanguageIn78;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToBooleanLiteral79;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLooseTypes79;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToStringLiteral80;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setErrorHandler80;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToNumberLiteral81;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInferTypes81;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakToDoubleLiteral82;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getInferTypes82;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_skipAllCompilerPasses83;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAssumeStrictThis83;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_addWarningsGuard84;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLanguageOut84;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_resetWarningsGuard85;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSkipAllPasses85;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamingPolicy86;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setMessageBundle86;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyAffinity87;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckSymbols87;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setShadowVariables88;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckSuspiciousCode88;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceIdGenerators89;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckControlStructures89;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setIdGenerators90;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckTypes90;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineFunctions91;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setFoldConstants91;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineFunctions92;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDeadAssignmentElimination92;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineVariables93;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineConstantVars93;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineVariables94;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineLocalFunctions94;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineProperties95;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCrossModuleCodeMotion95;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVariable96;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCoalesceVariableNames96;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVariables97;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCrossModuleMethodMotion97;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRewriteNewDateGoogNow98;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineGetters98;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveAbstractMethods99;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineLocalVariables99;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveClosureAsserts100;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSmartNameRemoval100;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setColorizeErrorOutput101;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveDeadCode101;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setChainCalls102;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVars102;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAcceptConstKeyword103;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedLocalVars103;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_enableRuntimeTypeCheck104;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasExternals104;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_disableRuntimeTypeCheck105;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setGroupVariableDeclarations105;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setGenerateExports106;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasableStrings106;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCodingConvention107;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasStringsBlacklist107;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDependencyOptions108;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasAllStrings108;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setManageClosureDependencies109;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setOutputJsStringUsage109;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setManageClosureDependencies110;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setConvertToDottedProperties110;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_enableExternExports111;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeParameters111;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setExtraAnnotationNames112;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeReturns112;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakProcessing113;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeCalls113;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLanguageIn114;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeArgumentsArray114;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLooseTypes115;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setVariableRenaming115;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setErrorHandler116;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyRenaming116;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInferTypes117;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLabelRenaming117;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getInferTypes118;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReserveRawExports118;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAssumeStrictThis119;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setGeneratePseudoNames119;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLanguageOut120;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamePrefix120;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSkipAllPasses121;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamePrefixNamespace121;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setMessageBundle122;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasKeywords122;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckSymbols123;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseProperties123;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckSuspiciousCode124;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDisambiguateProperties124;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckControlStructures125;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAmbiguateProperties125;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckTypes126;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAnonymousFunctionNaming126;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setFoldConstants127;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setExportTestFunctions127;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDeadAssignmentElimination128;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRuntimeTypeCheck128;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineConstantVars129;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSyntheticBlockStartMarker129;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineLocalFunctions130;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSyntheticBlockEndMarker130;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCrossModuleCodeMotion131;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setMarkAsCompiled131;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCoalesceVariableNames132;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveTryCatchFinally132;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCrossModuleMethodMotion133;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setClosurePass133;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineGetters134;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setGatherCssNames134;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInlineLocalVariables135;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripTypes135;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSmartNameRemoval136;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripNameSuffixes136;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveDeadCode137;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripNamePrefixes137;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedVars138;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripTypePrefixes138;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedLocalVars139;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCustomPasses139;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasExternals140;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setMarkNoSideEffectCalls140;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setGroupVariableDeclarations141;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineReplacements141;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasableStrings142;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakReplacements142;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasStringsBlacklist143;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setMoveFunctionDeclarations143;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasAllStrings144;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInstrumentationTemplate144;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setOutputJsStringUsage145;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRecordFunctionInformation145;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setConvertToDottedProperties146;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setPrintInputDelimiter146;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeParameters147;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputDelimiter147;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeReturns148;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setErrorFormat148;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeCalls149;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setWarningsGuard149;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setOptimizeArgumentsArray150;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setExternExports150;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setVariableRenaming151;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setExternExportsPath151;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyRenaming152;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapOutputPath152;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setLabelRenaming153;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapFormat153;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setReserveRawExports154;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapLocationMappings154;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setGeneratePseudoNames155;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTransformAMDToCJSModules155;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamePrefix156;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setProcessCommonJSModules156;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRenamePrefixNamespace157;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCommonJSModulePathPrefix157;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasKeywords158;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLineBreak158;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseProperties159;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setLocale159;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDisambiguateProperties160;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckCaja160;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAmbiguateProperties161;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setIdeMode161;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setAnonymousFunctionNaming162;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDevMode162;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setExportTestFunctions163;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setTracer163;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRuntimeTypeCheck164;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_assumeClosuresOnlyCaptureReferences164;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSyntheticBlockStartMarker165;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setBrokenClosureRequiresLevel165;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSyntheticBlockEndMarker166;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingGetCssNameLevel166;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setMarkAsCompiled167;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_isRemoveUnusedClassProperties167;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveTryCatchFinally168;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedClassProperties168;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setClosurePass169;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapsePropertiesOnExternTypes169;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setGatherCssNames170;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setProcessObjectPropertyString170;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripTypes171;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsConfiguration171;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripNameSuffixes172;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setNameAnonymousFunctionsOnly172;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripNamePrefixes173;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAliasTransformationHandler173;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setStripTypePrefixes174;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getAliasTransformationHandler174;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCustomPasses175;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setAssumeClosuresOnlyCaptureReferences175;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setMarkNoSideEffectCalls176;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setPropertyInvalidationErrors176;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setDefineReplacements177;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCheckMissingGetCssNameBlacklist177;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTweakReplacements178;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setFlowSensitiveInlineVariables178;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setMoveFunctionDeclarations179;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setExtractPrototypeMemberDeclarations179;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInstrumentationTemplate180;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedPrototypeProperties180;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setRecordFunctionInformation181;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRemoveUnusedPrototypePropertiesInExterns181;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setPrintInputDelimiter182;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseVariableDeclarations182;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputDelimiter183;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setCollapseAnonymousFunctions183;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setErrorFormat184;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRewriteFunctionExpressions184;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setWarningsGuard185;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDevirtualizePrototypeMethods185;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setExternExports186;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setComputeFunctionSideEffects186;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setExternExportsPath187;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setDebugFunctionSideEffectsPath187;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapOutputPath188;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputVariableMapSerialized188;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapFormat189;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setInputPropertyMapSerialized189;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setSourceMapLocationMappings190;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setRuntimeTypeCheckLogFunction190;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setTransformAMDToCJSModules191;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsFunctionDescriptions191;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setProcessCommonJSModules192;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsPlaceholderToken192;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_setCommonJSModulePathPrefix193;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_setReplaceStringsReservedStrings193;
         
         internal static global::net.sf.jni4net.jni.FieldId j4n_ideMode194;
         
@@ -1570,188 +1570,188 @@ namespace com.google.javascript.jscomp {
             global::com.google.javascript.jscomp.CompilerOptions.j4n_setLineLengthThreshold10 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLineLengthThreshold", "(I)V");
             global::com.google.javascript.jscomp.CompilerOptions.j4n_setOutputCharset11 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOutputCharset", "(Ljava/lang/String;)V");
             global::com.google.javascript.jscomp.CompilerOptions.j4n_setCssRenamingMap12 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCssRenamingMap", "(Lcom/google/javascript/jscomp/CssRenamingMap;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeClosuresOnlyCaptureReferences13 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "assumeClosuresOnlyCaptureReferences", "()Z");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setBrokenClosureRequiresLevel14 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setBrokenClosureRequiresLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameLevel15 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingGetCssNameLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_isRemoveUnusedClassProperties16 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "isRemoveUnusedClassProperties", "()Z");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedClassProperties17 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedClassProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapsePropertiesOnExternTypes18 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapsePropertiesOnExternTypes", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessObjectPropertyString19 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProcessObjectPropertyString", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsConfiguration20 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsConfiguration", "(Ljava/lang/String;Ljava/util/List;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameAnonymousFunctionsOnly21 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameAnonymousFunctionsOnly", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasTransformationHandler22 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasTransformationHandler", "(Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_getAliasTransformationHandler23 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getAliasTransformationHandler", "()Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeClosuresOnlyCaptureReferences24 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAssumeClosuresOnlyCaptureReferences", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyInvalidationErrors25 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyInvalidationErrors", "(Ljava/util/Map;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameBlacklist26 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingGetCssNameBlacklist", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setFlowSensitiveInlineVariables27 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setFlowSensitiveInlineVariables", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtractPrototypeMemberDeclarations28 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExtractPrototypeMemberDeclarations", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypeProperties29 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedPrototypeProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypePropertiesInExterns30 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedPrototypePropertiesInExterns", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseVariableDeclarations31 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseVariableDeclarations", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseAnonymousFunctions32 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseAnonymousFunctions", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteFunctionExpressions33 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRewriteFunctionExpressions", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevirtualizePrototypeMethods34 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDevirtualizePrototypeMethods", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setComputeFunctionSideEffects35 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setComputeFunctionSideEffects", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDebugFunctionSideEffectsPath36 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDebugFunctionSideEffectsPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputVariableMapSerialized37 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputVariableMapSerialized", "([B)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputPropertyMapSerialized38 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputPropertyMapSerialized", "([B)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheckLogFunction39 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRuntimeTypeCheckLogFunction", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsFunctionDescriptions40 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsFunctionDescriptions", "(Ljava/util/List;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsPlaceholderToken41 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsPlaceholderToken", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsReservedStrings42 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsReservedStrings", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPreferLineBreakAtEndOfFile43 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPreferLineBreakAtEndOfFile", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLineBreak44 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLineBreak", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLocale45 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLocale", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckCaja46 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckCaja", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdeMode47 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIdeMode", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevMode48 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDevMode", "(Lcom/google/javascript/jscomp/CompilerOptions$DevMode;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracer49 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTracer", "(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeStrictThis50 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "assumeStrictThis", "()Z");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAggressiveVarCheck51 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAggressiveVarCheck", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTightenTypes52 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTightenTypes", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportMissingOverride53 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportMissingOverride", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportUnknownTypes54 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportUnknownTypes", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckRequires55 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckRequires", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckProvides56 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckProvides", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalNamesLevel57 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckGlobalNamesLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalThisLevel58 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckGlobalThisLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckUnreachableCode59 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckUnreachableCode", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingReturn60 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingReturn", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableGlobals61 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasableGlobals", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setUnaliasableGlobals62 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setUnaliasableGlobals", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseObjectLiterals63 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseObjectLiterals", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSpecializeInitialModule64 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSpecializeInitialModule", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIgnoreCajaProperties65 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIgnoreCajaProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAppNameStr66 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAppNameStr", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportPath67 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_getTracerMode68 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getTracerMode", "()Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracerMode69 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTracerMode", "(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceReportPath70 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameReferenceReportPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceGraphPath71 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameReferenceGraphPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProtectHiddenSideEffects72 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProtectHiddenSideEffects", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_getDefineReplacements73 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getDefineReplacements", "()Ljava/util/Map;");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_getTweakReplacements74 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getTweakReplacements", "()Ljava/util/Map;");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToBooleanLiteral75 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToBooleanLiteral", "(Ljava/lang/String;Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToStringLiteral76 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToStringLiteral", "(Ljava/lang/String;Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToNumberLiteral77 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToNumberLiteral", "(Ljava/lang/String;I)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToDoubleLiteral78 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToDoubleLiteral", "(Ljava/lang/String;D)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToBooleanLiteral79 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToBooleanLiteral", "(Ljava/lang/String;Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToStringLiteral80 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToStringLiteral", "(Ljava/lang/String;Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToNumberLiteral81 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToNumberLiteral", "(Ljava/lang/String;I)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToDoubleLiteral82 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToDoubleLiteral", "(Ljava/lang/String;D)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_skipAllCompilerPasses83 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "skipAllCompilerPasses", "()V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_addWarningsGuard84 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "addWarningsGuard", "(Lcom/google/javascript/jscomp/WarningsGuard;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_resetWarningsGuard85 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "resetWarningsGuard", "()V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamingPolicy86 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamingPolicy", "(Lcom/google/javascript/jscomp/VariableRenamingPolicy;Lcom/google/javascript/jsco" +
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPreferLineBreakAtEndOfFile13 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPreferLineBreakAtEndOfFile", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeStrictThis14 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "assumeStrictThis", "()Z");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAggressiveVarCheck15 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAggressiveVarCheck", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTightenTypes16 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTightenTypes", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportMissingOverride17 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportMissingOverride", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportUnknownTypes18 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportUnknownTypes", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckRequires19 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckRequires", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckProvides20 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckProvides", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalNamesLevel21 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckGlobalNamesLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalThisLevel22 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckGlobalThisLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckUnreachableCode23 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckUnreachableCode", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingReturn24 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingReturn", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableGlobals25 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasableGlobals", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setUnaliasableGlobals26 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setUnaliasableGlobals", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseObjectLiterals27 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseObjectLiterals", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSpecializeInitialModule28 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSpecializeInitialModule", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIgnoreCajaProperties29 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIgnoreCajaProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAppNameStr30 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAppNameStr", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportPath31 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReportPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_getTracerMode32 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getTracerMode", "()Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracerMode33 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTracerMode", "(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceReportPath34 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameReferenceReportPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceGraphPath35 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameReferenceGraphPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProtectHiddenSideEffects36 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProtectHiddenSideEffects", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_getDefineReplacements37 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getDefineReplacements", "()Ljava/util/Map;");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_getTweakReplacements38 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getTweakReplacements", "()Ljava/util/Map;");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToBooleanLiteral39 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToBooleanLiteral", "(Ljava/lang/String;Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToStringLiteral40 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToStringLiteral", "(Ljava/lang/String;Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToNumberLiteral41 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToNumberLiteral", "(Ljava/lang/String;I)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToDoubleLiteral42 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineToDoubleLiteral", "(Ljava/lang/String;D)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToBooleanLiteral43 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToBooleanLiteral", "(Ljava/lang/String;Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToStringLiteral44 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToStringLiteral", "(Ljava/lang/String;Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToNumberLiteral45 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToNumberLiteral", "(Ljava/lang/String;I)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToDoubleLiteral46 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakToDoubleLiteral", "(Ljava/lang/String;D)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_skipAllCompilerPasses47 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "skipAllCompilerPasses", "()V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_addWarningsGuard48 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "addWarningsGuard", "(Lcom/google/javascript/jscomp/WarningsGuard;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_resetWarningsGuard49 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "resetWarningsGuard", "()V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamingPolicy50 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamingPolicy", "(Lcom/google/javascript/jscomp/VariableRenamingPolicy;Lcom/google/javascript/jsco" +
                     "mp/PropertyRenamingPolicy;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyAffinity87 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyAffinity", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setShadowVariables88 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setShadowVariables", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceIdGenerators89 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceIdGenerators", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdGenerators90 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIdGenerators", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions91 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineFunctions", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions92 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineFunctions", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables93 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineVariables", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables94 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineVariables", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineProperties95 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariable96 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVariable", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariables97 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVariables", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteNewDateGoogNow98 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRewriteNewDateGoogNow", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveAbstractMethods99 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveAbstractMethods", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveClosureAsserts100 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveClosureAsserts", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setColorizeErrorOutput101 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setColorizeErrorOutput", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setChainCalls102 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setChainCalls", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAcceptConstKeyword103 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAcceptConstKeyword", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_enableRuntimeTypeCheck104 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "enableRuntimeTypeCheck", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_disableRuntimeTypeCheck105 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "disableRuntimeTypeCheck", "()V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGenerateExports106 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGenerateExports", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCodingConvention107 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCodingConvention", "(Lcom/google/javascript/jscomp/CodingConvention;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDependencyOptions108 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDependencyOptions", "(Lcom/google/javascript/jscomp/DependencyOptions;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies109 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setManageClosureDependencies", "(Ljava/util/List;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies110 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setManageClosureDependencies", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_enableExternExports111 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "enableExternExports", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtraAnnotationNames112 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExtraAnnotationNames", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakProcessing113 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakProcessing", "(Lcom/google/javascript/jscomp/CompilerOptions$TweakProcessing;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageIn114 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLanguageIn", "(Lcom/google/javascript/jscomp/CompilerOptions$LanguageMode;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLooseTypes115 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLooseTypes", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorHandler116 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setErrorHandler", "(Lcom/google/javascript/jscomp/ErrorHandler;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInferTypes117 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInferTypes", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_getInferTypes118 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getInferTypes", "()Z");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeStrictThis119 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAssumeStrictThis", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageOut120 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLanguageOut", "(Lcom/google/javascript/jscomp/CompilerOptions$LanguageMode;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSkipAllPasses121 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSkipAllPasses", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMessageBundle122 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMessageBundle", "(Lcom/google/javascript/jscomp/MessageBundle;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSymbols123 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckSymbols", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSuspiciousCode124 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckSuspiciousCode", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckControlStructures125 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckControlStructures", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckTypes126 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckTypes", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setFoldConstants127 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setFoldConstants", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDeadAssignmentElimination128 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDeadAssignmentElimination", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineConstantVars129 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineConstantVars", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalFunctions130 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineLocalFunctions", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleCodeMotion131 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCrossModuleCodeMotion", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCoalesceVariableNames132 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCoalesceVariableNames", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleMethodMotion133 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCrossModuleMethodMotion", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineGetters134 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineGetters", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalVariables135 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineLocalVariables", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSmartNameRemoval136 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSmartNameRemoval", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveDeadCode137 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveDeadCode", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVars138 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVars", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedLocalVars139 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedLocalVars", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasExternals140 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasExternals", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGroupVariableDeclarations141 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGroupVariableDeclarations", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableStrings142 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasableStrings", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasStringsBlacklist143 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasStringsBlacklist", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasAllStrings144 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasAllStrings", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOutputJsStringUsage145 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOutputJsStringUsage", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setConvertToDottedProperties146 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setConvertToDottedProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeParameters147 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeParameters", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeReturns148 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeReturns", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeCalls149 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeCalls", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeArgumentsArray150 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeArgumentsArray", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setVariableRenaming151 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setVariableRenaming", "(Lcom/google/javascript/jscomp/VariableRenamingPolicy;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyRenaming152 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyRenaming", "(Lcom/google/javascript/jscomp/PropertyRenamingPolicy;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLabelRenaming153 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLabelRenaming", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReserveRawExports154 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReserveRawExports", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGeneratePseudoNames155 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGeneratePseudoNames", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefix156 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamePrefix", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefixNamespace157 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamePrefixNamespace", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasKeywords158 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasKeywords", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseProperties159 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDisambiguateProperties160 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDisambiguateProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAmbiguateProperties161 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAmbiguateProperties", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAnonymousFunctionNaming162 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAnonymousFunctionNaming", "(Lcom/google/javascript/jscomp/AnonymousFunctionNamingPolicy;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExportTestFunctions163 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExportTestFunctions", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheck164 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRuntimeTypeCheck", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockStartMarker165 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSyntheticBlockStartMarker", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockEndMarker166 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSyntheticBlockEndMarker", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkAsCompiled167 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMarkAsCompiled", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveTryCatchFinally168 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveTryCatchFinally", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setClosurePass169 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setClosurePass", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGatherCssNames170 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGatherCssNames", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypes171 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripTypes", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNameSuffixes172 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripNameSuffixes", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNamePrefixes173 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripNamePrefixes", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypePrefixes174 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripTypePrefixes", "(Ljava/util/Set;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCustomPasses175 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCustomPasses", "(Lcom/google/common/collect/Multimap;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkNoSideEffectCalls176 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMarkNoSideEffectCalls", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineReplacements177 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineReplacements", "(Ljava/util/Map;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakReplacements178 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakReplacements", "(Ljava/util/Map;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMoveFunctionDeclarations179 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMoveFunctionDeclarations", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInstrumentationTemplate180 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInstrumentationTemplate", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRecordFunctionInformation181 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRecordFunctionInformation", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPrintInputDelimiter182 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPrintInputDelimiter", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputDelimiter183 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputDelimiter", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorFormat184 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setErrorFormat", "(Lcom/google/javascript/jscomp/ErrorFormat;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setWarningsGuard185 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setWarningsGuard", "(Lcom/google/javascript/jscomp/ComposeWarningsGuard;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExports186 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExternExports", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExportsPath187 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExternExportsPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapOutputPath188 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapOutputPath", "(Ljava/lang/String;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapFormat189 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapFormat", "(Lcom/google/javascript/jscomp/SourceMap$Format;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapLocationMappings190 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapLocationMappings", "(Ljava/util/List;)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTransformAMDToCJSModules191 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTransformAMDToCJSModules", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessCommonJSModules192 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProcessCommonJSModules", "(Z)V");
-            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCommonJSModulePathPrefix193 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCommonJSModulePathPrefix", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyAffinity51 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyAffinity", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setShadowVariables52 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setShadowVariables", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceIdGenerators53 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceIdGenerators", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdGenerators54 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIdGenerators", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions55 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineFunctions", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions56 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineFunctions", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables57 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineVariables", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables58 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineVariables", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineProperties59 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariable60 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVariable", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariables61 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVariables", "(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteNewDateGoogNow62 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRewriteNewDateGoogNow", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveAbstractMethods63 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveAbstractMethods", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveClosureAsserts64 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveClosureAsserts", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setColorizeErrorOutput65 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setColorizeErrorOutput", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setChainCalls66 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setChainCalls", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAcceptConstKeyword67 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAcceptConstKeyword", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_enableRuntimeTypeCheck68 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "enableRuntimeTypeCheck", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_disableRuntimeTypeCheck69 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "disableRuntimeTypeCheck", "()V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGenerateExports70 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGenerateExports", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCodingConvention71 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCodingConvention", "(Lcom/google/javascript/jscomp/CodingConvention;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDependencyOptions72 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDependencyOptions", "(Lcom/google/javascript/jscomp/DependencyOptions;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies73 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setManageClosureDependencies", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies74 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setManageClosureDependencies", "(Ljava/util/List;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_enableExternExports75 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "enableExternExports", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtraAnnotationNames76 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExtraAnnotationNames", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakProcessing77 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakProcessing", "(Lcom/google/javascript/jscomp/CompilerOptions$TweakProcessing;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageIn78 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLanguageIn", "(Lcom/google/javascript/jscomp/CompilerOptions$LanguageMode;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLooseTypes79 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLooseTypes", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorHandler80 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setErrorHandler", "(Lcom/google/javascript/jscomp/ErrorHandler;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInferTypes81 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInferTypes", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_getInferTypes82 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getInferTypes", "()Z");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeStrictThis83 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAssumeStrictThis", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageOut84 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLanguageOut", "(Lcom/google/javascript/jscomp/CompilerOptions$LanguageMode;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSkipAllPasses85 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSkipAllPasses", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMessageBundle86 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMessageBundle", "(Lcom/google/javascript/jscomp/MessageBundle;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSymbols87 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckSymbols", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSuspiciousCode88 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckSuspiciousCode", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckControlStructures89 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckControlStructures", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckTypes90 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckTypes", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setFoldConstants91 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setFoldConstants", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDeadAssignmentElimination92 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDeadAssignmentElimination", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineConstantVars93 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineConstantVars", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalFunctions94 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineLocalFunctions", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleCodeMotion95 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCrossModuleCodeMotion", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCoalesceVariableNames96 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCoalesceVariableNames", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleMethodMotion97 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCrossModuleMethodMotion", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineGetters98 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineGetters", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalVariables99 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInlineLocalVariables", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSmartNameRemoval100 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSmartNameRemoval", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveDeadCode101 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveDeadCode", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVars102 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedVars", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedLocalVars103 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedLocalVars", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasExternals104 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasExternals", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGroupVariableDeclarations105 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGroupVariableDeclarations", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableStrings106 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasableStrings", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasStringsBlacklist107 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasStringsBlacklist", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasAllStrings108 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasAllStrings", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOutputJsStringUsage109 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOutputJsStringUsage", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setConvertToDottedProperties110 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setConvertToDottedProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeParameters111 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeParameters", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeReturns112 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeReturns", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeCalls113 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeCalls", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeArgumentsArray114 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setOptimizeArgumentsArray", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setVariableRenaming115 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setVariableRenaming", "(Lcom/google/javascript/jscomp/VariableRenamingPolicy;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyRenaming116 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyRenaming", "(Lcom/google/javascript/jscomp/PropertyRenamingPolicy;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLabelRenaming117 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLabelRenaming", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReserveRawExports118 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReserveRawExports", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGeneratePseudoNames119 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGeneratePseudoNames", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefix120 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamePrefix", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefixNamespace121 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRenamePrefixNamespace", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasKeywords122 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasKeywords", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseProperties123 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDisambiguateProperties124 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDisambiguateProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAmbiguateProperties125 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAmbiguateProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAnonymousFunctionNaming126 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAnonymousFunctionNaming", "(Lcom/google/javascript/jscomp/AnonymousFunctionNamingPolicy;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExportTestFunctions127 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExportTestFunctions", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheck128 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRuntimeTypeCheck", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockStartMarker129 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSyntheticBlockStartMarker", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockEndMarker130 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSyntheticBlockEndMarker", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkAsCompiled131 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMarkAsCompiled", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveTryCatchFinally132 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveTryCatchFinally", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setClosurePass133 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setClosurePass", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setGatherCssNames134 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setGatherCssNames", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypes135 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripTypes", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNameSuffixes136 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripNameSuffixes", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNamePrefixes137 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripNamePrefixes", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypePrefixes138 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setStripTypePrefixes", "(Ljava/util/Set;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCustomPasses139 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCustomPasses", "(Lcom/google/common/collect/Multimap;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkNoSideEffectCalls140 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMarkNoSideEffectCalls", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineReplacements141 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDefineReplacements", "(Ljava/util/Map;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakReplacements142 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTweakReplacements", "(Ljava/util/Map;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setMoveFunctionDeclarations143 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setMoveFunctionDeclarations", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInstrumentationTemplate144 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInstrumentationTemplate", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRecordFunctionInformation145 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRecordFunctionInformation", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPrintInputDelimiter146 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPrintInputDelimiter", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputDelimiter147 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputDelimiter", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorFormat148 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setErrorFormat", "(Lcom/google/javascript/jscomp/ErrorFormat;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setWarningsGuard149 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setWarningsGuard", "(Lcom/google/javascript/jscomp/ComposeWarningsGuard;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExports150 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExternExports", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExportsPath151 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExternExportsPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapOutputPath152 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapOutputPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapFormat153 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapFormat", "(Lcom/google/javascript/jscomp/SourceMap$Format;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapLocationMappings154 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setSourceMapLocationMappings", "(Ljava/util/List;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTransformAMDToCJSModules155 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTransformAMDToCJSModules", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessCommonJSModules156 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProcessCommonJSModules", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCommonJSModulePathPrefix157 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCommonJSModulePathPrefix", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLineBreak158 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLineBreak", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setLocale159 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setLocale", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckCaja160 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckCaja", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdeMode161 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setIdeMode", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevMode162 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDevMode", "(Lcom/google/javascript/jscomp/CompilerOptions$DevMode;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracer163 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setTracer", "(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeClosuresOnlyCaptureReferences164 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "assumeClosuresOnlyCaptureReferences", "()Z");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setBrokenClosureRequiresLevel165 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setBrokenClosureRequiresLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameLevel166 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingGetCssNameLevel", "(Lcom/google/javascript/jscomp/CheckLevel;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_isRemoveUnusedClassProperties167 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "isRemoveUnusedClassProperties", "()Z");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedClassProperties168 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedClassProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapsePropertiesOnExternTypes169 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapsePropertiesOnExternTypes", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessObjectPropertyString170 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setProcessObjectPropertyString", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsConfiguration171 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsConfiguration", "(Ljava/lang/String;Ljava/util/List;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameAnonymousFunctionsOnly172 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setNameAnonymousFunctionsOnly", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasTransformationHandler173 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAliasTransformationHandler", "(Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_getAliasTransformationHandler174 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "getAliasTransformationHandler", "()Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeClosuresOnlyCaptureReferences175 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setAssumeClosuresOnlyCaptureReferences", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyInvalidationErrors176 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setPropertyInvalidationErrors", "(Ljava/util/Map;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameBlacklist177 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCheckMissingGetCssNameBlacklist", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setFlowSensitiveInlineVariables178 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setFlowSensitiveInlineVariables", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtractPrototypeMemberDeclarations179 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setExtractPrototypeMemberDeclarations", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypeProperties180 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedPrototypeProperties", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypePropertiesInExterns181 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRemoveUnusedPrototypePropertiesInExterns", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseVariableDeclarations182 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseVariableDeclarations", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseAnonymousFunctions183 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setCollapseAnonymousFunctions", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteFunctionExpressions184 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRewriteFunctionExpressions", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevirtualizePrototypeMethods185 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDevirtualizePrototypeMethods", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setComputeFunctionSideEffects186 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setComputeFunctionSideEffects", "(Z)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setDebugFunctionSideEffectsPath187 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setDebugFunctionSideEffectsPath", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputVariableMapSerialized188 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputVariableMapSerialized", "([B)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputPropertyMapSerialized189 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setInputPropertyMapSerialized", "([B)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheckLogFunction190 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setRuntimeTypeCheckLogFunction", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsFunctionDescriptions191 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsFunctionDescriptions", "(Ljava/util/List;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsPlaceholderToken192 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsPlaceholderToken", "(Ljava/lang/String;)V");
+            global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsReservedStrings193 = @__env.GetMethodID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "setReplaceStringsReservedStrings", "(Ljava/util/Set;)V");
             global::com.google.javascript.jscomp.CompilerOptions.j4n_ideMode194 = @__env.GetFieldID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "ideMode", "Z");
             global::com.google.javascript.jscomp.CompilerOptions.j4n_messageBundle195 = @__env.GetFieldID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "messageBundle", "Lcom/google/javascript/jscomp/MessageBundle;");
             global::com.google.javascript.jscomp.CompilerOptions.j4n_checkSymbols196 = @__env.GetFieldID(global::com.google.javascript.jscomp.CompilerOptions.staticClass, "checkSymbols", "Z");
@@ -1954,299 +1954,11 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Z")]
-        public virtual bool assumeClosuresOnlyCaptureReferences() {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeClosuresOnlyCaptureReferences13)));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CheckLevel;)V")]
-        public virtual void setBrokenClosureRequiresLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setBrokenClosureRequiresLevel14, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CheckLevel;)V")]
-        public virtual void setCheckMissingGetCssNameLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameLevel15, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Z")]
-        public virtual bool isRemoveUnusedClassProperties() {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_isRemoveUnusedClassProperties16)));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setRemoveUnusedClassProperties(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedClassProperties17, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setCollapsePropertiesOnExternTypes(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapsePropertiesOnExternTypes18, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setProcessObjectPropertyString(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessObjectPropertyString19, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;Ljava/util/List;)V")]
-        public virtual void setReplaceStringsConfiguration(global::java.lang.String par0, global::java.util.List par1) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsConfiguration20, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par1));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setNameAnonymousFunctionsOnly(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameAnonymousFunctionsOnly21, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;)V")]
-        public virtual void setAliasTransformationHandler(global::java.lang.Object par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasTransformationHandler22, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;")]
-        public virtual global::java.lang.Object getAliasTransformationHandler() {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getAliasTransformationHandler23));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setAssumeClosuresOnlyCaptureReferences(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeClosuresOnlyCaptureReferences24, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/Map;)V")]
-        public virtual void setPropertyInvalidationErrors(global::java.util.Map par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyInvalidationErrors25, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
-        public virtual void setCheckMissingGetCssNameBlacklist(global::java.lang.String par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameBlacklist26, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setFlowSensitiveInlineVariables(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setFlowSensitiveInlineVariables27, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setExtractPrototypeMemberDeclarations(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtractPrototypeMemberDeclarations28, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setRemoveUnusedPrototypeProperties(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypeProperties29, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setRemoveUnusedPrototypePropertiesInExterns(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypePropertiesInExterns30, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setCollapseVariableDeclarations(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseVariableDeclarations31, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setCollapseAnonymousFunctions(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseAnonymousFunctions32, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setRewriteFunctionExpressions(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteFunctionExpressions33, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setDevirtualizePrototypeMethods(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevirtualizePrototypeMethods34, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setComputeFunctionSideEffects(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setComputeFunctionSideEffects35, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
-        public virtual void setDebugFunctionSideEffectsPath(global::java.lang.String par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDebugFunctionSideEffectsPath36, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([B)V")]
-        public virtual void setInputVariableMapSerialized(byte[] par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputVariableMapSerialized37, global::net.sf.jni4net.utils.Convertor.ParArrayPrimC2J(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([B)V")]
-        public virtual void setInputPropertyMapSerialized(byte[] par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputPropertyMapSerialized38, global::net.sf.jni4net.utils.Convertor.ParArrayPrimC2J(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
-        public virtual void setRuntimeTypeCheckLogFunction(global::java.lang.String par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheckLogFunction39, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;)V")]
-        public virtual void setReplaceStringsFunctionDescriptions(global::java.util.List par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsFunctionDescriptions40, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
-        public virtual void setReplaceStringsPlaceholderToken(global::java.lang.String par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsPlaceholderToken41, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/Set;)V")]
-        public virtual void setReplaceStringsReservedStrings(global::java.util.Set par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsReservedStrings42, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
-            }
-        }
-        
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
         public virtual void setPreferLineBreakAtEndOfFile(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPreferLineBreakAtEndOfFile43, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setLineBreak(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLineBreak44, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
-        public virtual void setLocale(global::java.lang.String par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLocale45, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setCheckCaja(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckCaja46, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
-        public virtual void setIdeMode(bool par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdeMode47, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$DevMode;)V")]
-        public virtual void setDevMode(global::java.lang.Object par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevMode48, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V")]
-        public virtual void setTracer(global::java.lang.Object par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracer49, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPreferLineBreakAtEndOfFile13, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2254,7 +1966,7 @@ namespace com.google.javascript.jscomp {
         public virtual bool assumeStrictThis() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeStrictThis50)));
+            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeStrictThis14)));
             }
         }
         
@@ -2262,7 +1974,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAggressiveVarCheck(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAggressiveVarCheck51, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAggressiveVarCheck15, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2270,7 +1982,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTightenTypes(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTightenTypes52, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTightenTypes16, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2278,7 +1990,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setReportMissingOverride(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportMissingOverride53, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportMissingOverride17, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2286,7 +1998,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setReportUnknownTypes(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportUnknownTypes54, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportUnknownTypes18, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2294,7 +2006,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckRequires(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckRequires55, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckRequires19, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2302,7 +2014,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckProvides(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckProvides56, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckProvides20, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2310,7 +2022,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckGlobalNamesLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalNamesLevel57, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalNamesLevel21, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2318,7 +2030,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckGlobalThisLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalThisLevel58, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckGlobalThisLevel22, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2326,7 +2038,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckUnreachableCode(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckUnreachableCode59, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckUnreachableCode23, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2334,7 +2046,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckMissingReturn(global::com.google.javascript.jscomp.CheckLevel par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingReturn60, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingReturn24, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2342,7 +2054,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasableGlobals(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableGlobals61, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableGlobals25, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2350,7 +2062,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setUnaliasableGlobals(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setUnaliasableGlobals62, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setUnaliasableGlobals26, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2358,7 +2070,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCollapseObjectLiterals(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseObjectLiterals63, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseObjectLiterals27, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2366,7 +2078,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSpecializeInitialModule(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSpecializeInitialModule64, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSpecializeInitialModule28, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2374,7 +2086,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setIgnoreCajaProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIgnoreCajaProperties65, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIgnoreCajaProperties29, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2382,7 +2094,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAppNameStr(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAppNameStr66, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAppNameStr30, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2390,7 +2102,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setReportPath(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportPath67, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReportPath31, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2398,7 +2110,7 @@ namespace com.google.javascript.jscomp {
         public virtual global::java.lang.Object getTracerMode() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getTracerMode68));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getTracerMode32));
             }
         }
         
@@ -2406,7 +2118,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTracerMode(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracerMode69, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracerMode33, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2414,7 +2126,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setNameReferenceReportPath(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceReportPath70, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceReportPath34, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2422,7 +2134,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setNameReferenceGraphPath(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceGraphPath71, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameReferenceGraphPath35, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2430,7 +2142,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setProtectHiddenSideEffects(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProtectHiddenSideEffects72, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProtectHiddenSideEffects36, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2438,7 +2150,7 @@ namespace com.google.javascript.jscomp {
         public virtual global::java.util.Map getDefineReplacements() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.util.Map>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getDefineReplacements73));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.util.Map>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getDefineReplacements37));
             }
         }
         
@@ -2446,7 +2158,7 @@ namespace com.google.javascript.jscomp {
         public virtual global::java.util.Map getTweakReplacements() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.util.Map>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getTweakReplacements74));
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.util.Map>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getTweakReplacements38));
             }
         }
         
@@ -2454,7 +2166,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDefineToBooleanLiteral(global::java.lang.String par0, bool par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToBooleanLiteral75, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToBooleanLiteral39, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2462,7 +2174,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDefineToStringLiteral(global::java.lang.String par0, global::java.lang.String par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToStringLiteral76, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToStringLiteral40, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
             }
         }
         
@@ -2470,7 +2182,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDefineToNumberLiteral(global::java.lang.String par0, int par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToNumberLiteral77, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToNumberLiteral41, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2478,7 +2190,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDefineToDoubleLiteral(global::java.lang.String par0, double par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToDoubleLiteral78, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineToDoubleLiteral42, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2486,7 +2198,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakToBooleanLiteral(global::java.lang.String par0, bool par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToBooleanLiteral79, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToBooleanLiteral43, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2494,7 +2206,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakToStringLiteral(global::java.lang.String par0, global::java.lang.String par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToStringLiteral80, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToStringLiteral44, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
             }
         }
         
@@ -2502,7 +2214,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakToNumberLiteral(global::java.lang.String par0, int par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToNumberLiteral81, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToNumberLiteral45, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2510,7 +2222,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakToDoubleLiteral(global::java.lang.String par0, double par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToDoubleLiteral82, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakToDoubleLiteral46, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par1));
             }
         }
         
@@ -2518,7 +2230,7 @@ namespace com.google.javascript.jscomp {
         public virtual void skipAllCompilerPasses() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_skipAllCompilerPasses83);
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_skipAllCompilerPasses47);
             }
         }
         
@@ -2526,7 +2238,7 @@ namespace com.google.javascript.jscomp {
         public virtual void addWarningsGuard(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_addWarningsGuard84, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_addWarningsGuard48, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2534,7 +2246,7 @@ namespace com.google.javascript.jscomp {
         public virtual void resetWarningsGuard() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_resetWarningsGuard85);
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_resetWarningsGuard49);
             }
         }
         
@@ -2543,7 +2255,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRenamingPolicy(global::java.lang.Object par0, global::java.lang.Object par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamingPolicy86, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamingPolicy50, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par1));
             }
         }
         
@@ -2551,7 +2263,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setPropertyAffinity(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyAffinity87, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyAffinity51, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2559,7 +2271,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setShadowVariables(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setShadowVariables88, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setShadowVariables52, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2567,7 +2279,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setReplaceIdGenerators(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceIdGenerators89, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceIdGenerators53, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2575,15 +2287,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setIdGenerators(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdGenerators90, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V")]
-        public virtual void setInlineFunctions(global::java.lang.Object par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions91, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdGenerators54, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -2591,7 +2295,15 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineFunctions(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions92, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions55, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$Reach;)V")]
+        public virtual void setInlineFunctions(global::java.lang.Object par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineFunctions56, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2599,7 +2311,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineVariables(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables93, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables57, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2607,7 +2319,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineVariables(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables94, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineVariables58, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2615,7 +2327,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineProperties95, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineProperties59, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2623,7 +2335,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveUnusedVariable(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariable96, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariable60, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2631,7 +2343,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveUnusedVariables(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariables97, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVariables61, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2639,7 +2351,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRewriteNewDateGoogNow(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteNewDateGoogNow98, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteNewDateGoogNow62, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2647,7 +2359,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveAbstractMethods(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveAbstractMethods99, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveAbstractMethods63, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2655,7 +2367,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveClosureAsserts(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveClosureAsserts100, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveClosureAsserts64, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2663,7 +2375,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setColorizeErrorOutput(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setColorizeErrorOutput101, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setColorizeErrorOutput65, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2671,7 +2383,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setChainCalls(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setChainCalls102, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setChainCalls66, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2679,7 +2391,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAcceptConstKeyword(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAcceptConstKeyword103, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAcceptConstKeyword67, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2687,7 +2399,7 @@ namespace com.google.javascript.jscomp {
         public virtual void enableRuntimeTypeCheck(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_enableRuntimeTypeCheck104, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_enableRuntimeTypeCheck68, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2695,7 +2407,7 @@ namespace com.google.javascript.jscomp {
         public virtual void disableRuntimeTypeCheck() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_disableRuntimeTypeCheck105);
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_disableRuntimeTypeCheck69);
             }
         }
         
@@ -2703,7 +2415,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setGenerateExports(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGenerateExports106, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGenerateExports70, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2711,7 +2423,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCodingConvention(global::java.io.Serializable par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCodingConvention107, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.io.Serializable>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCodingConvention71, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.io.Serializable>(@__env, par0));
             }
         }
         
@@ -2719,15 +2431,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDependencyOptions(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDependencyOptions108, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
-            }
-        }
-        
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;)V")]
-        public virtual void setManageClosureDependencies(global::java.util.List par0) {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies109, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDependencyOptions72, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2735,7 +2439,15 @@ namespace com.google.javascript.jscomp {
         public virtual void setManageClosureDependencies(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies110, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies73, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;)V")]
+        public virtual void setManageClosureDependencies(global::java.util.List par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setManageClosureDependencies74, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
             }
         }
         
@@ -2743,7 +2455,7 @@ namespace com.google.javascript.jscomp {
         public virtual void enableExternExports(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_enableExternExports111, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_enableExternExports75, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2751,7 +2463,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setExtraAnnotationNames(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtraAnnotationNames112, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtraAnnotationNames76, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -2759,7 +2471,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakProcessing(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakProcessing113, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakProcessing77, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2767,7 +2479,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setLanguageIn(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageIn114, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageIn78, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2775,7 +2487,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setLooseTypes(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLooseTypes115, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLooseTypes79, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2783,7 +2495,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setErrorHandler(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorHandler116, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorHandler80, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
             }
         }
         
@@ -2791,7 +2503,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInferTypes(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInferTypes117, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInferTypes81, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2799,7 +2511,7 @@ namespace com.google.javascript.jscomp {
         public virtual bool getInferTypes() {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getInferTypes118)));
+            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getInferTypes82)));
             }
         }
         
@@ -2807,7 +2519,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAssumeStrictThis(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeStrictThis119, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeStrictThis83, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2815,7 +2527,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setLanguageOut(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageOut120, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLanguageOut84, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -2823,7 +2535,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSkipAllPasses(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSkipAllPasses121, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSkipAllPasses85, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2831,7 +2543,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setMessageBundle(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMessageBundle122, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMessageBundle86, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
             }
         }
         
@@ -2839,7 +2551,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckSymbols(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSymbols123, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSymbols87, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2847,7 +2559,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckSuspiciousCode(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSuspiciousCode124, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckSuspiciousCode88, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2855,7 +2567,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckControlStructures(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckControlStructures125, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckControlStructures89, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2863,7 +2575,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCheckTypes(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckTypes126, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckTypes90, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2871,7 +2583,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setFoldConstants(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setFoldConstants127, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setFoldConstants91, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2879,7 +2591,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDeadAssignmentElimination(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDeadAssignmentElimination128, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDeadAssignmentElimination92, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2887,7 +2599,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineConstantVars(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineConstantVars129, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineConstantVars93, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2895,7 +2607,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineLocalFunctions(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalFunctions130, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalFunctions94, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2903,7 +2615,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCrossModuleCodeMotion(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleCodeMotion131, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleCodeMotion95, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2911,7 +2623,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCoalesceVariableNames(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCoalesceVariableNames132, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCoalesceVariableNames96, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2919,7 +2631,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCrossModuleMethodMotion(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleMethodMotion133, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCrossModuleMethodMotion97, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2927,7 +2639,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineGetters(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineGetters134, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineGetters98, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2935,7 +2647,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInlineLocalVariables(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalVariables135, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInlineLocalVariables99, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2943,7 +2655,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSmartNameRemoval(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSmartNameRemoval136, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSmartNameRemoval100, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2951,7 +2663,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveDeadCode(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveDeadCode137, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveDeadCode101, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2959,7 +2671,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveUnusedVars(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVars138, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedVars102, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2967,7 +2679,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveUnusedLocalVars(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedLocalVars139, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedLocalVars103, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2975,7 +2687,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasExternals(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasExternals140, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasExternals104, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2983,7 +2695,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setGroupVariableDeclarations(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGroupVariableDeclarations141, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGroupVariableDeclarations105, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -2991,7 +2703,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasableStrings(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableStrings142, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasableStrings106, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -2999,7 +2711,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasStringsBlacklist(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasStringsBlacklist143, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasStringsBlacklist107, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3007,7 +2719,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasAllStrings(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasAllStrings144, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasAllStrings108, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3015,7 +2727,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setOutputJsStringUsage(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOutputJsStringUsage145, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOutputJsStringUsage109, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3023,7 +2735,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setConvertToDottedProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setConvertToDottedProperties146, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setConvertToDottedProperties110, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3031,7 +2743,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setOptimizeParameters(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeParameters147, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeParameters111, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3039,7 +2751,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setOptimizeReturns(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeReturns148, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeReturns112, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3047,7 +2759,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setOptimizeCalls(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeCalls149, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeCalls113, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3055,7 +2767,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setOptimizeArgumentsArray(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeArgumentsArray150, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setOptimizeArgumentsArray114, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3063,7 +2775,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setVariableRenaming(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setVariableRenaming151, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setVariableRenaming115, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3071,7 +2783,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setPropertyRenaming(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyRenaming152, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyRenaming116, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3079,7 +2791,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setLabelRenaming(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLabelRenaming153, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLabelRenaming117, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3087,7 +2799,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setReserveRawExports(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReserveRawExports154, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReserveRawExports118, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3095,7 +2807,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setGeneratePseudoNames(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGeneratePseudoNames155, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGeneratePseudoNames119, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3103,7 +2815,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRenamePrefix(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefix156, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefix120, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3111,7 +2823,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRenamePrefixNamespace(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefixNamespace157, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRenamePrefixNamespace121, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3119,7 +2831,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAliasKeywords(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasKeywords158, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasKeywords122, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3127,7 +2839,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCollapseProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseProperties159, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseProperties123, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3135,7 +2847,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDisambiguateProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDisambiguateProperties160, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDisambiguateProperties124, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3143,7 +2855,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAmbiguateProperties(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAmbiguateProperties161, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAmbiguateProperties125, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3151,7 +2863,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setAnonymousFunctionNaming(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAnonymousFunctionNaming162, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAnonymousFunctionNaming126, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3159,7 +2871,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setExportTestFunctions(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExportTestFunctions163, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExportTestFunctions127, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3167,7 +2879,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRuntimeTypeCheck(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheck164, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheck128, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3175,7 +2887,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSyntheticBlockStartMarker(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockStartMarker165, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockStartMarker129, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3183,7 +2895,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSyntheticBlockEndMarker(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockEndMarker166, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSyntheticBlockEndMarker130, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3191,7 +2903,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setMarkAsCompiled(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkAsCompiled167, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkAsCompiled131, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3199,7 +2911,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRemoveTryCatchFinally(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveTryCatchFinally168, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveTryCatchFinally132, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3207,7 +2919,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setClosurePass(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setClosurePass169, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setClosurePass133, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3215,7 +2927,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setGatherCssNames(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGatherCssNames170, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setGatherCssNames134, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3223,7 +2935,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setStripTypes(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypes171, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypes135, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -3231,7 +2943,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setStripNameSuffixes(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNameSuffixes172, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNameSuffixes136, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -3239,7 +2951,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setStripNamePrefixes(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNamePrefixes173, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripNamePrefixes137, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -3247,7 +2959,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setStripTypePrefixes(global::java.util.Set par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypePrefixes174, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setStripTypePrefixes138, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         
@@ -3255,7 +2967,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setCustomPasses(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCustomPasses175, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCustomPasses139, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
             }
         }
         
@@ -3263,7 +2975,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setMarkNoSideEffectCalls(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkNoSideEffectCalls176, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMarkNoSideEffectCalls140, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3271,7 +2983,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setDefineReplacements(global::java.util.Map par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineReplacements177, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDefineReplacements141, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
             }
         }
         
@@ -3279,7 +2991,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTweakReplacements(global::java.util.Map par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakReplacements178, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTweakReplacements142, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
             }
         }
         
@@ -3287,7 +2999,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setMoveFunctionDeclarations(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMoveFunctionDeclarations179, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setMoveFunctionDeclarations143, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3295,7 +3007,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInstrumentationTemplate(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInstrumentationTemplate180, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInstrumentationTemplate144, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3303,7 +3015,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setRecordFunctionInformation(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRecordFunctionInformation181, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRecordFunctionInformation145, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3311,7 +3023,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setPrintInputDelimiter(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPrintInputDelimiter182, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPrintInputDelimiter146, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3319,7 +3031,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setInputDelimiter(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputDelimiter183, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputDelimiter147, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3327,7 +3039,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setErrorFormat(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorFormat184, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setErrorFormat148, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3335,7 +3047,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setWarningsGuard(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setWarningsGuard185, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setWarningsGuard149, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3343,7 +3055,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setExternExports(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExports186, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExports150, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3351,7 +3063,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setExternExportsPath(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExportsPath187, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExternExportsPath151, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3359,7 +3071,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSourceMapOutputPath(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapOutputPath188, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapOutputPath152, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3367,7 +3079,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSourceMapFormat(global::java.lang.Object par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapFormat189, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapFormat153, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
             }
         }
         
@@ -3375,7 +3087,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setSourceMapLocationMappings(global::java.util.List par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapLocationMappings190, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setSourceMapLocationMappings154, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
             }
         }
         
@@ -3383,7 +3095,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setTransformAMDToCJSModules(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTransformAMDToCJSModules191, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTransformAMDToCJSModules155, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3391,7 +3103,7 @@ namespace com.google.javascript.jscomp {
         public virtual void setProcessCommonJSModules(bool par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessCommonJSModules192, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessCommonJSModules156, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
             }
         }
         
@@ -3399,7 +3111,295 @@ namespace com.google.javascript.jscomp {
         public virtual void setCommonJSModulePathPrefix(global::java.lang.String par0) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
-            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCommonJSModulePathPrefix193, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCommonJSModulePathPrefix157, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setLineBreak(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLineBreak158, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
+        public virtual void setLocale(global::java.lang.String par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setLocale159, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setCheckCaja(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckCaja160, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setIdeMode(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setIdeMode161, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$DevMode;)V")]
+        public virtual void setDevMode(global::java.lang.Object par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevMode162, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$TracerMode;)V")]
+        public virtual void setTracer(global::java.lang.Object par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setTracer163, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Z")]
+        public virtual bool assumeClosuresOnlyCaptureReferences() {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_assumeClosuresOnlyCaptureReferences164)));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CheckLevel;)V")]
+        public virtual void setBrokenClosureRequiresLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setBrokenClosureRequiresLevel165, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CheckLevel;)V")]
+        public virtual void setCheckMissingGetCssNameLevel(global::com.google.javascript.jscomp.CheckLevel par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameLevel166, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Z")]
+        public virtual bool isRemoveUnusedClassProperties() {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return ((bool)(@__env.CallBooleanMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_isRemoveUnusedClassProperties167)));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setRemoveUnusedClassProperties(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedClassProperties168, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setCollapsePropertiesOnExternTypes(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapsePropertiesOnExternTypes169, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setProcessObjectPropertyString(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setProcessObjectPropertyString170, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;Ljava/util/List;)V")]
+        public virtual void setReplaceStringsConfiguration(global::java.lang.String par0, global::java.util.List par1) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsConfiguration171, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par1));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setNameAnonymousFunctionsOnly(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setNameAnonymousFunctionsOnly172, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;)V")]
+        public virtual void setAliasTransformationHandler(global::java.lang.Object par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAliasTransformationHandler173, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Lcom/google/javascript/jscomp/CompilerOptions$AliasTransformationHandler;")]
+        public virtual global::java.lang.Object getAliasTransformationHandler() {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return global::net.sf.jni4net.utils.Convertor.FullJ2C<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_getAliasTransformationHandler174));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setAssumeClosuresOnlyCaptureReferences(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setAssumeClosuresOnlyCaptureReferences175, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/Map;)V")]
+        public virtual void setPropertyInvalidationErrors(global::java.util.Map par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setPropertyInvalidationErrors176, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Map>(@__env, par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
+        public virtual void setCheckMissingGetCssNameBlacklist(global::java.lang.String par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCheckMissingGetCssNameBlacklist177, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setFlowSensitiveInlineVariables(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setFlowSensitiveInlineVariables178, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setExtractPrototypeMemberDeclarations(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setExtractPrototypeMemberDeclarations179, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setRemoveUnusedPrototypeProperties(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypeProperties180, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setRemoveUnusedPrototypePropertiesInExterns(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRemoveUnusedPrototypePropertiesInExterns181, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setCollapseVariableDeclarations(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseVariableDeclarations182, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setCollapseAnonymousFunctions(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setCollapseAnonymousFunctions183, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setRewriteFunctionExpressions(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRewriteFunctionExpressions184, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setDevirtualizePrototypeMethods(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDevirtualizePrototypeMethods185, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Z)V")]
+        public virtual void setComputeFunctionSideEffects(bool par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setComputeFunctionSideEffects186, global::net.sf.jni4net.utils.Convertor.ParPrimC2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
+        public virtual void setDebugFunctionSideEffectsPath(global::java.lang.String par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setDebugFunctionSideEffectsPath187, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([B)V")]
+        public virtual void setInputVariableMapSerialized(byte[] par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputVariableMapSerialized188, global::net.sf.jni4net.utils.Convertor.ParArrayPrimC2J(@__env, par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("([B)V")]
+        public virtual void setInputPropertyMapSerialized(byte[] par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setInputPropertyMapSerialized189, global::net.sf.jni4net.utils.Convertor.ParArrayPrimC2J(@__env, par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
+        public virtual void setRuntimeTypeCheckLogFunction(global::java.lang.String par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setRuntimeTypeCheckLogFunction190, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/List;)V")]
+        public virtual void setReplaceStringsFunctionDescriptions(global::java.util.List par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsFunctionDescriptions191, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.List>(@__env, par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/lang/String;)V")]
+        public virtual void setReplaceStringsPlaceholderToken(global::java.lang.String par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsPlaceholderToken192, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Ljava/util/Set;)V")]
+        public virtual void setReplaceStringsReservedStrings(global::java.util.Set par0) {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 12)){
+            @__env.CallVoidMethod(this, global::com.google.javascript.jscomp.CompilerOptions.j4n_setReplaceStringsReservedStrings193, global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.util.Set>(@__env, par0));
             }
         }
         

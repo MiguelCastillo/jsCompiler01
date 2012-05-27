@@ -27,9 +27,9 @@ namespace com.google.javascript.jscomp {
         
         internal static global::net.sf.jni4net.jni.MethodId j4n_make4;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_getType5;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_format5;
         
-        internal static global::net.sf.jni4net.jni.MethodId j4n_format6;
+        internal static global::net.sf.jni4net.jni.MethodId j4n_getType6;
         
         internal static global::net.sf.jni4net.jni.MethodId j4n_getLineNumber7;
         
@@ -113,9 +113,9 @@ namespace com.google.javascript.jscomp {
             global::com.google.javascript.jscomp.JSError.j4n_make4 = @__env.GetStaticMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "make", "(Ljava/lang/String;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscom" +
                     "p/CheckLevel;Lcom/google/javascript/jscomp/DiagnosticType;[Ljava/lang/String;)Lc" +
                     "om/google/javascript/jscomp/JSError;");
-            global::com.google.javascript.jscomp.JSError.j4n_getType5 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "getType", "()Lcom/google/javascript/jscomp/DiagnosticType;");
-            global::com.google.javascript.jscomp.JSError.j4n_format6 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "format", "(Lcom/google/javascript/jscomp/CheckLevel;Lcom/google/javascript/jscomp/MessageFo" +
+            global::com.google.javascript.jscomp.JSError.j4n_format5 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "format", "(Lcom/google/javascript/jscomp/CheckLevel;Lcom/google/javascript/jscomp/MessageFo" +
                     "rmatter;)Ljava/lang/String;");
+            global::com.google.javascript.jscomp.JSError.j4n_getType6 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "getType", "()Lcom/google/javascript/jscomp/DiagnosticType;");
             global::com.google.javascript.jscomp.JSError.j4n_getLineNumber7 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "getLineNumber", "()I");
             global::com.google.javascript.jscomp.JSError.j4n_getCharno8 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "getCharno", "()I");
             global::com.google.javascript.jscomp.JSError.j4n_getNodeSourceOffset9 = @__env.GetMethodID(global::com.google.javascript.jscomp.JSError.staticClass, "getNodeSourceOffset", "()I");
@@ -174,20 +174,20 @@ namespace com.google.javascript.jscomp {
             }
         }
         
-        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Lcom/google/javascript/jscomp/DiagnosticType;")]
-        public virtual global::java.lang.Object getType() {
-            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
-            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.JSError.j4n_getType5));
-            }
-        }
-        
         [global::net.sf.jni4net.attributes.JavaMethodAttribute("(Lcom/google/javascript/jscomp/CheckLevel;Lcom/google/javascript/jscomp/MessageFo" +
             "rmatter;)Ljava/lang/String;")]
         public virtual global::java.lang.String format(global::com.google.javascript.jscomp.CheckLevel par0, global::java.lang.Object par1) {
             global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
             using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 14)){
-            return global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.JSError.j4n_format6, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par1)));
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2CpString(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.JSError.j4n_format5, global::net.sf.jni4net.utils.Convertor.ParStrongCp2J(par0), global::net.sf.jni4net.utils.Convertor.ParFullC2J<global::java.lang.Object>(@__env, par1)));
+            }
+        }
+        
+        [global::net.sf.jni4net.attributes.JavaMethodAttribute("()Lcom/google/javascript/jscomp/DiagnosticType;")]
+        public virtual global::java.lang.Object getType() {
+            global::net.sf.jni4net.jni.JNIEnv @__env = this.Env;
+            using(new global::net.sf.jni4net.jni.LocalFrame(@__env, 10)){
+            return global::net.sf.jni4net.utils.Convertor.StrongJ2Cp<global::java.lang.Object>(@__env, @__env.CallObjectMethodPtr(this, global::com.google.javascript.jscomp.JSError.j4n_getType6));
             }
         }
         
